@@ -1,6 +1,7 @@
 import pandas as pd
 import sys
 import datetime
+import os
 
 #Province/State  Country/Region      Last Update  Confirmed  Deaths  Recovered
 def parse_coronavirus_data(data_path, input_date):
@@ -105,6 +106,12 @@ def parse_coronavirus_data(data_path, input_date):
 
     print(df)
 
+    #4. groupby and aggregation
+    print("groupby and aggregation")
+    df=df.groupby(['sub_region_1', 'country_region_code', 'date']).agg({'Confirmed':'sum', 'Deaths':'sum', 'Recovered':'sum'})
+    print(df)
+
+
     return df
 
 #country_region_code,country_region,sub_region_1,sub_region_2,metro_area,iso_3166_2_code,census_fips_code,date,retail_and_recreation_percent_change_from_baseline,grocery_and_pharmacy_percent_change_from_baseline,parks_percent_change_from_baseline,transit_stations_percent_change_from_baseline,workplaces_percent_change_from_baseline,residential_percent_change_from_baseline
@@ -114,9 +121,18 @@ def parse_mobility_data(data_path):
 
     #1. aggregate based on country region
     #it includes both aggregated and non aggregated values
+ 
+    #2. remove county level statistics
+
+    for i, row in df.iterrows():
+       cur_county=df.at[i, 'sub_region_2']
+       if not cur_county:
+           df.drop(i)
+    
+    print(df)       
 
 
-    #2  to lowercase
+    #3  to lowercase
     print("to lowercase for the other table") 
     df['sub_region_1']=df['sub_region_1'].str.lower()
     df['sub_region_1']=df['sub_region_1'].str.strip()
@@ -127,9 +143,20 @@ def parse_mobility_data(data_path):
     print(df)
     return df
 
+#download
+
+def download():
+    if (os.path.isfile('source-datasets/Global_Mobility_Report.csv')):
+        print("file Global_Mobility_Report.csv exists in source-datasets/")
+    else:
+        os.system('wget https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv')  
+        os.system('mv Global_Mobility_Report.csv source-datasets/')
+
+
 if __name__ == '__main__':
     input_date = str(sys.argv[1])
     print input_date
+    download()
     df1=parse_coronavirus_data('source-datasets/'+input_date+'.csv', input_date)
     df1.to_csv('left.csv', encoding='utf-8')
     df2=parse_mobility_data('source-datasets/Global_Mobility_Report.csv')

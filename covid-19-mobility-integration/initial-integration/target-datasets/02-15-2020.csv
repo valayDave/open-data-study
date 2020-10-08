@@ -1,709 +1,485 @@
-,sub_region_1,country_region_code,Last Update,Confirmed,Deaths,Recovered,date,country_region,sub_region_2,metro_area,iso_3166_2_code,census_fips_code,retail_and_recreation_percent_change_from_baseline,grocery_and_pharmacy_percent_change_from_baseline,parks_percent_change_from_baseline,transit_stations_percent_change_from_baseline,workplaces_percent_change_from_baseline,residential_percent_change_from_baseline
-0,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,,,US-IL,,4.0,3.0,10.0,3.0,3.0,-1.0
-1,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Adams County,,,17001.0,3.0,2.0,,,6.0,0.0
-2,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Bond County,,,17005.0,14.0,,,7.0,2.0,
-3,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Boone County,,,17007.0,14.0,5.0,,20.0,3.0,
-4,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Bureau County,,,17011.0,13.0,4.0,,,7.0,
-5,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Carroll County,,,17015.0,-3.0,,,,2.0,
-6,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Cass County,,,17017.0,3.0,-10.0,,,-27.0,
-7,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Champaign County,,,17019.0,14.0,8.0,31.0,4.0,7.0,0.0
-8,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Christian County,,,17021.0,1.0,5.0,,,4.0,
-9,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Clark County,,,17023.0,4.0,,,-9.0,4.0,
-10,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Clay County,,,17025.0,-4.0,,,,,
-11,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Clinton County,,,17027.0,5.0,-5.0,,,-3.0,
-12,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Coles County,,,17029.0,1.0,0.0,,,-2.0,
-13,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Cook County,,,17031.0,5.0,1.0,17.0,3.0,2.0,-1.0
-14,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Crawford County,,,17033.0,4.0,-2.0,,,4.0,
-15,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Cumberland County,,,17035.0,,,,-6.0,,
-16,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,De Witt County,,,17039.0,3.0,7.0,,,4.0,
-17,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,DeKalb County,,,17037.0,11.0,13.0,,,6.0,-1.0
-18,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Douglas County,,,17041.0,20.0,2.0,,,0.0,
-19,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,DuPage County,,,17043.0,5.0,5.0,10.0,1.0,4.0,-1.0
-20,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Edgar County,,,17045.0,5.0,-6.0,,,-2.0,
-21,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Effingham County,,,17049.0,8.0,2.0,,-1.0,-1.0,
-22,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Fayette County,,,17051.0,14.0,-7.0,,,-3.0,
-23,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Ford County,,,17053.0,3.0,-15.0,,,,
-24,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Franklin County,,,17055.0,-1.0,4.0,,-2.0,0.0,
-25,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Fulton County,,,17057.0,2.0,3.0,,,-3.0,
-26,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Greene County,,,17061.0,0.0,-3.0,,,,
-27,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Grundy County,,,17063.0,20.0,2.0,,-19.0,-2.0,
-28,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Hancock County,,,17067.0,19.0,4.0,,,4.0,
-29,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Henry County,,,17073.0,2.0,-2.0,,14.0,-3.0,
-30,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Iroquois County,,,17075.0,5.0,0.0,,-3.0,1.0,
-31,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Jackson County,,,17077.0,7.0,3.0,43.0,,-4.0,
-32,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Jasper County,,,17079.0,19.0,,,,,
-33,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Jefferson County,,,17081.0,10.0,6.0,,3.0,-2.0,
-34,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Jersey County,,,17083.0,6.0,,,,10.0,
-35,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Jo Daviess County,,,17085.0,18.0,44.0,,,5.0,
-36,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Johnson County,,,17087.0,,,0.0,,,
-37,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Kane County,,,17089.0,4.0,6.0,2.0,5.0,3.0,-1.0
-38,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Kankakee County,,,17091.0,9.0,10.0,,-4.0,2.0,-1.0
-39,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Kendall County,,,17093.0,4.0,7.0,9.0,,2.0,-1.0
-40,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Knox County,,,17095.0,-1.0,25.0,,22.0,0.0,
-41,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Lake County,,,17097.0,4.0,7.0,4.0,5.0,2.0,-1.0
-42,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,LaSalle County,,,17099.0,11.0,2.0,5.0,6.0,-1.0,-2.0
-43,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Lawrence County,,,17101.0,2.0,,,,-4.0,
-44,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Lee County,,,17103.0,17.0,17.0,,,4.0,
-45,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Livingston County,,,17105.0,6.0,11.0,,,0.0,
-46,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Logan County,,,17107.0,11.0,10.0,,,-3.0,
-47,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Macon County,,,17115.0,1.0,-2.0,,2.0,-1.0,-1.0
-48,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Macoupin County,,,17117.0,6.0,2.0,,,6.0,
-49,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Madison County,,,17119.0,3.0,4.0,25.0,5.0,3.0,0.0
-50,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Marion County,,,17121.0,4.0,7.0,,,-1.0,
-51,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Mason County,,,17125.0,8.0,-13.0,,,0.0,
-52,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Massac County,,,17127.0,15.0,-1.0,,,6.0,
-53,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,McDonough County,,,17109.0,14.0,9.0,,,6.0,
-54,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,McHenry County,,,17111.0,4.0,5.0,-1.0,14.0,6.0,-1.0
-55,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,McLean County,,,17113.0,9.0,7.0,1.0,1.0,7.0,-1.0
-56,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Mercer County,,,17131.0,10.0,,,,7.0,
-57,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Monroe County,,,17133.0,-3.0,2.0,,,5.0,
-58,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Montgomery County,,,17135.0,4.0,0.0,,,1.0,
-59,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Morgan County,,,17137.0,7.0,-3.0,,,-1.0,
-60,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Moultrie County,,,17139.0,-8.0,,,,,
-61,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Ogle County,,,17141.0,6.0,4.0,,,2.0,
-62,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Peoria County,,,17143.0,7.0,5.0,4.0,1.0,5.0,0.0
-63,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Perry County,,,17145.0,9.0,18.0,,,4.0,
-64,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Piatt County,,,17147.0,13.0,,,,9.0,
-65,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Pike County,,,17149.0,-4.0,-4.0,,,,
-66,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Randolph County,,,17157.0,3.0,-4.0,,,-8.0,
-67,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Richland County,,,17159.0,8.0,,,,-4.0,
-68,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Rock Island County,,,17161.0,5.0,16.0,57.0,-4.0,5.0,-1.0
-69,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Saline County,,,17165.0,-1.0,-4.0,,,4.0,
-70,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Sangamon County,,,17167.0,5.0,0.0,25.0,0.0,-1.0,0.0
-71,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Shelby County,,,17173.0,10.0,,,,-4.0,
-72,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,St. Clair County,,,17163.0,4.0,-3.0,16.0,0.0,0.0,0.0
-73,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Stephenson County,,,17177.0,7.0,16.0,,,6.0,
-74,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Tazewell County,,,17179.0,3.0,-3.0,12.0,,5.0,0.0
-75,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Union County,,,17181.0,10.0,-7.0,,,14.0,
-76,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Vermilion County,,,17183.0,2.0,4.0,,-9.0,-5.0,-1.0
-77,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Wabash County,,,17185.0,15.0,-11.0,,,,
-78,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Warren County,,,17187.0,13.0,8.0,,,-22.0,
-79,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Washington County,,,17189.0,2.0,-1.0,,,10.0,
-80,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Wayne County,,,17191.0,-1.0,-2.0,,,6.0,
-81,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,White County,,,17193.0,-6.0,,,,,
-82,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Whiteside County,,,17195.0,6.0,6.0,,,1.0,-2.0
-83,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Will County,,,17197.0,3.0,1.0,23.0,7.0,1.0,-1.0
-84,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Williamson County,,,17199.0,2.0,-1.0,,-3.0,-1.0,0.0
-85,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Winnebago County,,,17201.0,13.0,10.0,11.0,2.0,1.0,-2.0
-86,illinois,us,2020-02-09T19:03:03,2,0,2,2020-02-15,United States,Woodford County,,,17203.0,9.0,-12.0,,,5.0,
-87,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,,,US-CA,,1.0,1.0,19.0,1.0,-1.0,0.0
-88,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Alameda County,,,6001.0,1.0,0.0,22.0,1.0,0.0,-1.0
-89,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Amador County,,,6005.0,13.0,2.0,,,-3.0,
-90,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Butte County,,,6007.0,4.0,5.0,28.0,-4.0,-2.0,-1.0
-91,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Calaveras County,,,6009.0,18.0,27.0,61.0,,2.0,
-92,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Colusa County,,,6011.0,10.0,-9.0,,18.0,3.0,
-93,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Contra Costa County,,,6013.0,-1.0,1.0,25.0,7.0,-2.0,-1.0
-94,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Del Norte County,,,6015.0,17.0,13.0,,,0.0,
-95,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,El Dorado County,,,6017.0,2.0,-5.0,24.0,,-1.0,0.0
-96,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Fresno County,,,6019.0,4.0,0.0,24.0,8.0,-5.0,0.0
-97,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Glenn County,,,6021.0,11.0,7.0,,23.0,-2.0,
-98,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Humboldt County,,,6023.0,9.0,-1.0,56.0,-27.0,-2.0,-1.0
-99,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Imperial County,,,6025.0,4.0,-6.0,13.0,7.0,1.0,-1.0
-100,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Inyo County,,,6027.0,18.0,9.0,50.0,,-8.0,
-101,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Kern County,,,6029.0,5.0,4.0,55.0,11.0,-5.0,0.0
-102,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Kings County,,,6031.0,7.0,-1.0,14.0,16.0,-3.0,-1.0
-103,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Lake County,,,6033.0,5.0,18.0,21.0,,-6.0,-1.0
-104,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Lassen County,,,6035.0,9.0,-1.0,,,-4.0,
-105,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Los Angeles County,,,6037.0,1.0,0.0,13.0,-1.0,-1.0,0.0
-106,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Madera County,,,6039.0,7.0,-3.0,65.0,23.0,-3.0,0.0
-107,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Marin County,,,6041.0,6.0,7.0,28.0,18.0,-3.0,-1.0
-108,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Mariposa County,,,6043.0,47.0,40.0,73.0,,-6.0,
-109,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Mendocino County,,,6045.0,13.0,10.0,51.0,,-2.0,-1.0
-110,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Merced County,,,6047.0,5.0,3.0,54.0,19.0,-4.0,-1.0
-111,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Mono County,,,6051.0,-8.0,16.0,49.0,,2.0,
-112,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Monterey County,,,6053.0,11.0,8.0,29.0,15.0,-1.0,-1.0
-113,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Napa County,,,6055.0,12.0,8.0,47.0,,1.0,-1.0
-114,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Nevada County,,,6057.0,1.0,-7.0,12.0,-14.0,-3.0,0.0
-115,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Orange County,,,6059.0,0.0,0.0,9.0,0.0,0.0,0.0
-116,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Placer County,,,6061.0,2.0,11.0,31.0,-1.0,-1.0,0.0
-117,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Plumas County,,,6063.0,18.0,15.0,,,,
-118,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Riverside County,,,6065.0,3.0,2.0,6.0,2.0,-2.0,0.0
-119,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Sacramento County,,,6067.0,1.0,1.0,26.0,-2.0,-2.0,-1.0
-120,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,San Benito County,,,6069.0,1.0,0.0,27.0,,-4.0,-1.0
-121,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,San Bernardino County,,,6071.0,2.0,-1.0,8.0,1.0,-2.0,0.0
-122,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,San Diego County,,,6073.0,3.0,-1.0,14.0,2.0,-1.0,0.0
-123,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,San Francisco County,,,6075.0,6.0,2.0,23.0,-1.0,1.0,-1.0
-124,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,San Joaquin County,,,6077.0,3.0,3.0,31.0,10.0,-2.0,-1.0
-125,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,San Luis Obispo County,,,6079.0,16.0,9.0,43.0,9.0,0.0,-1.0
-126,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,San Mateo County,,,6081.0,-1.0,0.0,24.0,-3.0,-1.0,-1.0
-127,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Santa Barbara County,,,6083.0,4.0,0.0,20.0,5.0,-2.0,0.0
-128,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Santa Clara County,,,6085.0,-3.0,-3.0,18.0,0.0,-1.0,-1.0
-129,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Santa Cruz County,,,6087.0,12.0,9.0,34.0,14.0,-4.0,-1.0
-130,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Shasta County,,,6089.0,4.0,6.0,47.0,0.0,1.0,-1.0
-131,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Siskiyou County,,,6093.0,13.0,7.0,33.0,7.0,-1.0,
-132,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Solano County,,,6095.0,4.0,-3.0,28.0,3.0,-2.0,-1.0
-133,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Sonoma County,,,6097.0,9.0,6.0,31.0,2.0,-1.0,-1.0
-134,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Stanislaus County,,,6099.0,2.0,-3.0,31.0,15.0,-2.0,-1.0
-135,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Sutter County,,,6101.0,2.0,3.0,,,-3.0,0.0
-136,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Tehama County,,,6103.0,5.0,10.0,42.0,-1.0,-3.0,-1.0
-137,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Trinity County,,,6105.0,-5.0,10.0,,,,
-138,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Tulare County,,,6107.0,1.0,1.0,22.0,15.0,-3.0,0.0
-139,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Tuolumne County,,,6109.0,8.0,22.0,31.0,,-1.0,
-140,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Ventura County,,,6111.0,1.0,-2.0,7.0,-1.0,-1.0,0.0
-141,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Yolo County,,,6113.0,2.0,3.0,11.0,12.0,-1.0,-1.0
-142,california,us,2020-02-03T03:53:02,2,0,0,2020-02-15,United States,Yuba County,,,6115.0,10.0,-1.0,45.0,,1.0,0.0
-143,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,,,US-CA,,1.0,1.0,19.0,1.0,-1.0,0.0
-144,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Alameda County,,,6001.0,1.0,0.0,22.0,1.0,0.0,-1.0
-145,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Amador County,,,6005.0,13.0,2.0,,,-3.0,
-146,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Butte County,,,6007.0,4.0,5.0,28.0,-4.0,-2.0,-1.0
-147,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Calaveras County,,,6009.0,18.0,27.0,61.0,,2.0,
-148,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Colusa County,,,6011.0,10.0,-9.0,,18.0,3.0,
-149,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Contra Costa County,,,6013.0,-1.0,1.0,25.0,7.0,-2.0,-1.0
-150,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Del Norte County,,,6015.0,17.0,13.0,,,0.0,
-151,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,El Dorado County,,,6017.0,2.0,-5.0,24.0,,-1.0,0.0
-152,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Fresno County,,,6019.0,4.0,0.0,24.0,8.0,-5.0,0.0
-153,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Glenn County,,,6021.0,11.0,7.0,,23.0,-2.0,
-154,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Humboldt County,,,6023.0,9.0,-1.0,56.0,-27.0,-2.0,-1.0
-155,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Imperial County,,,6025.0,4.0,-6.0,13.0,7.0,1.0,-1.0
-156,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Inyo County,,,6027.0,18.0,9.0,50.0,,-8.0,
-157,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Kern County,,,6029.0,5.0,4.0,55.0,11.0,-5.0,0.0
-158,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Kings County,,,6031.0,7.0,-1.0,14.0,16.0,-3.0,-1.0
-159,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Lake County,,,6033.0,5.0,18.0,21.0,,-6.0,-1.0
-160,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Lassen County,,,6035.0,9.0,-1.0,,,-4.0,
-161,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Los Angeles County,,,6037.0,1.0,0.0,13.0,-1.0,-1.0,0.0
-162,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Madera County,,,6039.0,7.0,-3.0,65.0,23.0,-3.0,0.0
-163,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Marin County,,,6041.0,6.0,7.0,28.0,18.0,-3.0,-1.0
-164,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Mariposa County,,,6043.0,47.0,40.0,73.0,,-6.0,
-165,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Mendocino County,,,6045.0,13.0,10.0,51.0,,-2.0,-1.0
-166,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Merced County,,,6047.0,5.0,3.0,54.0,19.0,-4.0,-1.0
-167,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Mono County,,,6051.0,-8.0,16.0,49.0,,2.0,
-168,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Monterey County,,,6053.0,11.0,8.0,29.0,15.0,-1.0,-1.0
-169,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Napa County,,,6055.0,12.0,8.0,47.0,,1.0,-1.0
-170,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Nevada County,,,6057.0,1.0,-7.0,12.0,-14.0,-3.0,0.0
-171,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Orange County,,,6059.0,0.0,0.0,9.0,0.0,0.0,0.0
-172,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Placer County,,,6061.0,2.0,11.0,31.0,-1.0,-1.0,0.0
-173,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Plumas County,,,6063.0,18.0,15.0,,,,
-174,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Riverside County,,,6065.0,3.0,2.0,6.0,2.0,-2.0,0.0
-175,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Sacramento County,,,6067.0,1.0,1.0,26.0,-2.0,-2.0,-1.0
-176,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,San Benito County,,,6069.0,1.0,0.0,27.0,,-4.0,-1.0
-177,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,San Bernardino County,,,6071.0,2.0,-1.0,8.0,1.0,-2.0,0.0
-178,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,San Diego County,,,6073.0,3.0,-1.0,14.0,2.0,-1.0,0.0
-179,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,San Francisco County,,,6075.0,6.0,2.0,23.0,-1.0,1.0,-1.0
-180,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,San Joaquin County,,,6077.0,3.0,3.0,31.0,10.0,-2.0,-1.0
-181,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,San Luis Obispo County,,,6079.0,16.0,9.0,43.0,9.0,0.0,-1.0
-182,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,San Mateo County,,,6081.0,-1.0,0.0,24.0,-3.0,-1.0,-1.0
-183,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Santa Barbara County,,,6083.0,4.0,0.0,20.0,5.0,-2.0,0.0
-184,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Santa Clara County,,,6085.0,-3.0,-3.0,18.0,0.0,-1.0,-1.0
-185,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Santa Cruz County,,,6087.0,12.0,9.0,34.0,14.0,-4.0,-1.0
-186,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Shasta County,,,6089.0,4.0,6.0,47.0,0.0,1.0,-1.0
-187,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Siskiyou County,,,6093.0,13.0,7.0,33.0,7.0,-1.0,
-188,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Solano County,,,6095.0,4.0,-3.0,28.0,3.0,-2.0,-1.0
-189,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Sonoma County,,,6097.0,9.0,6.0,31.0,2.0,-1.0,-1.0
-190,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Stanislaus County,,,6099.0,2.0,-3.0,31.0,15.0,-2.0,-1.0
-191,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Sutter County,,,6101.0,2.0,3.0,,,-3.0,0.0
-192,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Tehama County,,,6103.0,5.0,10.0,42.0,-1.0,-3.0,-1.0
-193,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Trinity County,,,6105.0,-5.0,10.0,,,,
-194,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Tulare County,,,6107.0,1.0,1.0,22.0,15.0,-3.0,0.0
-195,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Tuolumne County,,,6109.0,8.0,22.0,31.0,,-1.0,
-196,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Ventura County,,,6111.0,1.0,-2.0,7.0,-1.0,-1.0,0.0
-197,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Yolo County,,,6113.0,2.0,3.0,11.0,12.0,-1.0,-1.0
-198,california,us,2020-02-13T03:13:08,2,0,0,2020-02-15,United States,Yuba County,,,6115.0,10.0,-1.0,45.0,,1.0,0.0
-199,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,,,US-CA,,1.0,1.0,19.0,1.0,-1.0,0.0
-200,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Alameda County,,,6001.0,1.0,0.0,22.0,1.0,0.0,-1.0
-201,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Amador County,,,6005.0,13.0,2.0,,,-3.0,
-202,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Butte County,,,6007.0,4.0,5.0,28.0,-4.0,-2.0,-1.0
-203,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Calaveras County,,,6009.0,18.0,27.0,61.0,,2.0,
-204,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Colusa County,,,6011.0,10.0,-9.0,,18.0,3.0,
-205,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Contra Costa County,,,6013.0,-1.0,1.0,25.0,7.0,-2.0,-1.0
-206,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Del Norte County,,,6015.0,17.0,13.0,,,0.0,
-207,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,El Dorado County,,,6017.0,2.0,-5.0,24.0,,-1.0,0.0
-208,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Fresno County,,,6019.0,4.0,0.0,24.0,8.0,-5.0,0.0
-209,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Glenn County,,,6021.0,11.0,7.0,,23.0,-2.0,
-210,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Humboldt County,,,6023.0,9.0,-1.0,56.0,-27.0,-2.0,-1.0
-211,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Imperial County,,,6025.0,4.0,-6.0,13.0,7.0,1.0,-1.0
-212,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Inyo County,,,6027.0,18.0,9.0,50.0,,-8.0,
-213,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Kern County,,,6029.0,5.0,4.0,55.0,11.0,-5.0,0.0
-214,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Kings County,,,6031.0,7.0,-1.0,14.0,16.0,-3.0,-1.0
-215,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Lake County,,,6033.0,5.0,18.0,21.0,,-6.0,-1.0
-216,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Lassen County,,,6035.0,9.0,-1.0,,,-4.0,
-217,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Los Angeles County,,,6037.0,1.0,0.0,13.0,-1.0,-1.0,0.0
-218,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Madera County,,,6039.0,7.0,-3.0,65.0,23.0,-3.0,0.0
-219,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Marin County,,,6041.0,6.0,7.0,28.0,18.0,-3.0,-1.0
-220,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Mariposa County,,,6043.0,47.0,40.0,73.0,,-6.0,
-221,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Mendocino County,,,6045.0,13.0,10.0,51.0,,-2.0,-1.0
-222,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Merced County,,,6047.0,5.0,3.0,54.0,19.0,-4.0,-1.0
-223,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Mono County,,,6051.0,-8.0,16.0,49.0,,2.0,
-224,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Monterey County,,,6053.0,11.0,8.0,29.0,15.0,-1.0,-1.0
-225,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Napa County,,,6055.0,12.0,8.0,47.0,,1.0,-1.0
-226,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Nevada County,,,6057.0,1.0,-7.0,12.0,-14.0,-3.0,0.0
-227,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Orange County,,,6059.0,0.0,0.0,9.0,0.0,0.0,0.0
-228,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Placer County,,,6061.0,2.0,11.0,31.0,-1.0,-1.0,0.0
-229,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Plumas County,,,6063.0,18.0,15.0,,,,
-230,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Riverside County,,,6065.0,3.0,2.0,6.0,2.0,-2.0,0.0
-231,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Sacramento County,,,6067.0,1.0,1.0,26.0,-2.0,-2.0,-1.0
-232,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,San Benito County,,,6069.0,1.0,0.0,27.0,,-4.0,-1.0
-233,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,San Bernardino County,,,6071.0,2.0,-1.0,8.0,1.0,-2.0,0.0
-234,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,San Diego County,,,6073.0,3.0,-1.0,14.0,2.0,-1.0,0.0
-235,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,San Francisco County,,,6075.0,6.0,2.0,23.0,-1.0,1.0,-1.0
-236,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,San Joaquin County,,,6077.0,3.0,3.0,31.0,10.0,-2.0,-1.0
-237,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,San Luis Obispo County,,,6079.0,16.0,9.0,43.0,9.0,0.0,-1.0
-238,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,San Mateo County,,,6081.0,-1.0,0.0,24.0,-3.0,-1.0,-1.0
-239,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Santa Barbara County,,,6083.0,4.0,0.0,20.0,5.0,-2.0,0.0
-240,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Santa Clara County,,,6085.0,-3.0,-3.0,18.0,0.0,-1.0,-1.0
-241,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Santa Cruz County,,,6087.0,12.0,9.0,34.0,14.0,-4.0,-1.0
-242,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Shasta County,,,6089.0,4.0,6.0,47.0,0.0,1.0,-1.0
-243,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Siskiyou County,,,6093.0,13.0,7.0,33.0,7.0,-1.0,
-244,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Solano County,,,6095.0,4.0,-3.0,28.0,3.0,-2.0,-1.0
-245,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Sonoma County,,,6097.0,9.0,6.0,31.0,2.0,-1.0,-1.0
-246,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Stanislaus County,,,6099.0,2.0,-3.0,31.0,15.0,-2.0,-1.0
-247,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Sutter County,,,6101.0,2.0,3.0,,,-3.0,0.0
-248,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Tehama County,,,6103.0,5.0,10.0,42.0,-1.0,-3.0,-1.0
-249,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Trinity County,,,6105.0,-5.0,10.0,,,,
-250,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Tulare County,,,6107.0,1.0,1.0,22.0,15.0,-3.0,0.0
-251,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Tuolumne County,,,6109.0,8.0,22.0,31.0,,-1.0,
-252,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Ventura County,,,6111.0,1.0,-2.0,7.0,-1.0,-1.0,0.0
-253,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Yolo County,,,6113.0,2.0,3.0,11.0,12.0,-1.0,-1.0
-254,california,us,2020-02-03T00:43:02,2,0,0,2020-02-15,United States,Yuba County,,,6115.0,10.0,-1.0,45.0,,1.0,0.0
-255,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,,,US-CA,,1.0,1.0,19.0,1.0,-1.0,0.0
-256,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Alameda County,,,6001.0,1.0,0.0,22.0,1.0,0.0,-1.0
-257,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Amador County,,,6005.0,13.0,2.0,,,-3.0,
-258,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Butte County,,,6007.0,4.0,5.0,28.0,-4.0,-2.0,-1.0
-259,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Calaveras County,,,6009.0,18.0,27.0,61.0,,2.0,
-260,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Colusa County,,,6011.0,10.0,-9.0,,18.0,3.0,
-261,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Contra Costa County,,,6013.0,-1.0,1.0,25.0,7.0,-2.0,-1.0
-262,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Del Norte County,,,6015.0,17.0,13.0,,,0.0,
-263,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,El Dorado County,,,6017.0,2.0,-5.0,24.0,,-1.0,0.0
-264,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Fresno County,,,6019.0,4.0,0.0,24.0,8.0,-5.0,0.0
-265,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Glenn County,,,6021.0,11.0,7.0,,23.0,-2.0,
-266,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Humboldt County,,,6023.0,9.0,-1.0,56.0,-27.0,-2.0,-1.0
-267,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Imperial County,,,6025.0,4.0,-6.0,13.0,7.0,1.0,-1.0
-268,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Inyo County,,,6027.0,18.0,9.0,50.0,,-8.0,
-269,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Kern County,,,6029.0,5.0,4.0,55.0,11.0,-5.0,0.0
-270,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Kings County,,,6031.0,7.0,-1.0,14.0,16.0,-3.0,-1.0
-271,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Lake County,,,6033.0,5.0,18.0,21.0,,-6.0,-1.0
-272,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Lassen County,,,6035.0,9.0,-1.0,,,-4.0,
-273,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Los Angeles County,,,6037.0,1.0,0.0,13.0,-1.0,-1.0,0.0
-274,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Madera County,,,6039.0,7.0,-3.0,65.0,23.0,-3.0,0.0
-275,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Marin County,,,6041.0,6.0,7.0,28.0,18.0,-3.0,-1.0
-276,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Mariposa County,,,6043.0,47.0,40.0,73.0,,-6.0,
-277,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Mendocino County,,,6045.0,13.0,10.0,51.0,,-2.0,-1.0
-278,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Merced County,,,6047.0,5.0,3.0,54.0,19.0,-4.0,-1.0
-279,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Mono County,,,6051.0,-8.0,16.0,49.0,,2.0,
-280,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Monterey County,,,6053.0,11.0,8.0,29.0,15.0,-1.0,-1.0
-281,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Napa County,,,6055.0,12.0,8.0,47.0,,1.0,-1.0
-282,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Nevada County,,,6057.0,1.0,-7.0,12.0,-14.0,-3.0,0.0
-283,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Orange County,,,6059.0,0.0,0.0,9.0,0.0,0.0,0.0
-284,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Placer County,,,6061.0,2.0,11.0,31.0,-1.0,-1.0,0.0
-285,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Plumas County,,,6063.0,18.0,15.0,,,,
-286,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Riverside County,,,6065.0,3.0,2.0,6.0,2.0,-2.0,0.0
-287,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Sacramento County,,,6067.0,1.0,1.0,26.0,-2.0,-2.0,-1.0
-288,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Benito County,,,6069.0,1.0,0.0,27.0,,-4.0,-1.0
-289,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Bernardino County,,,6071.0,2.0,-1.0,8.0,1.0,-2.0,0.0
-290,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Diego County,,,6073.0,3.0,-1.0,14.0,2.0,-1.0,0.0
-291,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Francisco County,,,6075.0,6.0,2.0,23.0,-1.0,1.0,-1.0
-292,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Joaquin County,,,6077.0,3.0,3.0,31.0,10.0,-2.0,-1.0
-293,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Luis Obispo County,,,6079.0,16.0,9.0,43.0,9.0,0.0,-1.0
-294,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Mateo County,,,6081.0,-1.0,0.0,24.0,-3.0,-1.0,-1.0
-295,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Santa Barbara County,,,6083.0,4.0,0.0,20.0,5.0,-2.0,0.0
-296,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Santa Clara County,,,6085.0,-3.0,-3.0,18.0,0.0,-1.0,-1.0
-297,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Santa Cruz County,,,6087.0,12.0,9.0,34.0,14.0,-4.0,-1.0
-298,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Shasta County,,,6089.0,4.0,6.0,47.0,0.0,1.0,-1.0
-299,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Siskiyou County,,,6093.0,13.0,7.0,33.0,7.0,-1.0,
-300,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Solano County,,,6095.0,4.0,-3.0,28.0,3.0,-2.0,-1.0
-301,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Sonoma County,,,6097.0,9.0,6.0,31.0,2.0,-1.0,-1.0
-302,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Stanislaus County,,,6099.0,2.0,-3.0,31.0,15.0,-2.0,-1.0
-303,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Sutter County,,,6101.0,2.0,3.0,,,-3.0,0.0
-304,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Tehama County,,,6103.0,5.0,10.0,42.0,-1.0,-3.0,-1.0
-305,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Trinity County,,,6105.0,-5.0,10.0,,,,
-306,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Tulare County,,,6107.0,1.0,1.0,22.0,15.0,-3.0,0.0
-307,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Tuolumne County,,,6109.0,8.0,22.0,31.0,,-1.0,
-308,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Ventura County,,,6111.0,1.0,-2.0,7.0,-1.0,-1.0,0.0
-309,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Yolo County,,,6113.0,2.0,3.0,11.0,12.0,-1.0,-1.0
-310,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Yuba County,,,6115.0,10.0,-1.0,45.0,,1.0,0.0
-311,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,,,US-CA,,1.0,1.0,19.0,1.0,-1.0,0.0
-312,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Alameda County,,,6001.0,1.0,0.0,22.0,1.0,0.0,-1.0
-313,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Amador County,,,6005.0,13.0,2.0,,,-3.0,
-314,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Butte County,,,6007.0,4.0,5.0,28.0,-4.0,-2.0,-1.0
-315,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Calaveras County,,,6009.0,18.0,27.0,61.0,,2.0,
-316,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Colusa County,,,6011.0,10.0,-9.0,,18.0,3.0,
-317,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Contra Costa County,,,6013.0,-1.0,1.0,25.0,7.0,-2.0,-1.0
-318,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Del Norte County,,,6015.0,17.0,13.0,,,0.0,
-319,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,El Dorado County,,,6017.0,2.0,-5.0,24.0,,-1.0,0.0
-320,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Fresno County,,,6019.0,4.0,0.0,24.0,8.0,-5.0,0.0
-321,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Glenn County,,,6021.0,11.0,7.0,,23.0,-2.0,
-322,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Humboldt County,,,6023.0,9.0,-1.0,56.0,-27.0,-2.0,-1.0
-323,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Imperial County,,,6025.0,4.0,-6.0,13.0,7.0,1.0,-1.0
-324,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Inyo County,,,6027.0,18.0,9.0,50.0,,-8.0,
-325,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Kern County,,,6029.0,5.0,4.0,55.0,11.0,-5.0,0.0
-326,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Kings County,,,6031.0,7.0,-1.0,14.0,16.0,-3.0,-1.0
-327,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Lake County,,,6033.0,5.0,18.0,21.0,,-6.0,-1.0
-328,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Lassen County,,,6035.0,9.0,-1.0,,,-4.0,
-329,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Los Angeles County,,,6037.0,1.0,0.0,13.0,-1.0,-1.0,0.0
-330,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Madera County,,,6039.0,7.0,-3.0,65.0,23.0,-3.0,0.0
-331,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Marin County,,,6041.0,6.0,7.0,28.0,18.0,-3.0,-1.0
-332,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Mariposa County,,,6043.0,47.0,40.0,73.0,,-6.0,
-333,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Mendocino County,,,6045.0,13.0,10.0,51.0,,-2.0,-1.0
-334,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Merced County,,,6047.0,5.0,3.0,54.0,19.0,-4.0,-1.0
-335,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Mono County,,,6051.0,-8.0,16.0,49.0,,2.0,
-336,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Monterey County,,,6053.0,11.0,8.0,29.0,15.0,-1.0,-1.0
-337,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Napa County,,,6055.0,12.0,8.0,47.0,,1.0,-1.0
-338,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Nevada County,,,6057.0,1.0,-7.0,12.0,-14.0,-3.0,0.0
-339,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Orange County,,,6059.0,0.0,0.0,9.0,0.0,0.0,0.0
-340,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Placer County,,,6061.0,2.0,11.0,31.0,-1.0,-1.0,0.0
-341,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Plumas County,,,6063.0,18.0,15.0,,,,
-342,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Riverside County,,,6065.0,3.0,2.0,6.0,2.0,-2.0,0.0
-343,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Sacramento County,,,6067.0,1.0,1.0,26.0,-2.0,-2.0,-1.0
-344,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Benito County,,,6069.0,1.0,0.0,27.0,,-4.0,-1.0
-345,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Bernardino County,,,6071.0,2.0,-1.0,8.0,1.0,-2.0,0.0
-346,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Diego County,,,6073.0,3.0,-1.0,14.0,2.0,-1.0,0.0
-347,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Francisco County,,,6075.0,6.0,2.0,23.0,-1.0,1.0,-1.0
-348,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Joaquin County,,,6077.0,3.0,3.0,31.0,10.0,-2.0,-1.0
-349,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Luis Obispo County,,,6079.0,16.0,9.0,43.0,9.0,0.0,-1.0
-350,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,San Mateo County,,,6081.0,-1.0,0.0,24.0,-3.0,-1.0,-1.0
-351,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Santa Barbara County,,,6083.0,4.0,0.0,20.0,5.0,-2.0,0.0
-352,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Santa Clara County,,,6085.0,-3.0,-3.0,18.0,0.0,-1.0,-1.0
-353,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Santa Cruz County,,,6087.0,12.0,9.0,34.0,14.0,-4.0,-1.0
-354,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Shasta County,,,6089.0,4.0,6.0,47.0,0.0,1.0,-1.0
-355,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Siskiyou County,,,6093.0,13.0,7.0,33.0,7.0,-1.0,
-356,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Solano County,,,6095.0,4.0,-3.0,28.0,3.0,-2.0,-1.0
-357,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Sonoma County,,,6097.0,9.0,6.0,31.0,2.0,-1.0,-1.0
-358,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Stanislaus County,,,6099.0,2.0,-3.0,31.0,15.0,-2.0,-1.0
-359,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Sutter County,,,6101.0,2.0,3.0,,,-3.0,0.0
-360,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Tehama County,,,6103.0,5.0,10.0,42.0,-1.0,-3.0,-1.0
-361,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Trinity County,,,6105.0,-5.0,10.0,,,,
-362,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Tulare County,,,6107.0,1.0,1.0,22.0,15.0,-3.0,0.0
-363,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Tuolumne County,,,6109.0,8.0,22.0,31.0,,-1.0,
-364,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Ventura County,,,6111.0,1.0,-2.0,7.0,-1.0,-1.0,0.0
-365,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Yolo County,,,6113.0,2.0,3.0,11.0,12.0,-1.0,-1.0
-366,california,us,2020-02-01T19:53:03,1,0,0,2020-02-15,United States,Yuba County,,,6115.0,10.0,-1.0,45.0,,1.0,0.0
-367,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,,,US-MA,,2.0,-4.0,0.0,3.0,-2.0,0.0
-368,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Barnstable County,,,25001.0,8.0,4.0,10.0,8.0,1.0,0.0
-369,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Berkshire County,,,25003.0,12.0,-4.0,11.0,20.0,-1.0,0.0
-370,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Bristol County,,,25005.0,0.0,-4.0,-17.0,0.0,-2.0,0.0
-371,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Dukes County,,,25007.0,18.0,-4.0,,,-2.0,
-372,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Essex County,,,25009.0,1.0,-7.0,5.0,1.0,-3.0,0.0
-373,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Franklin County,,,25011.0,16.0,-1.0,,,-2.0,
-374,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Hampden County,,,25013.0,6.0,-4.0,4.0,13.0,-3.0,-1.0
-375,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Hampshire County,,,25015.0,3.0,1.0,,,5.0,-1.0
-376,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Middlesex County,,,25017.0,0.0,-5.0,-7.0,-1.0,-1.0,0.0
-377,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Nantucket County,,,25019.0,-4.0,4.0,,,,
-378,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Norfolk County,,,25021.0,-1.0,-5.0,-2.0,1.0,0.0,-1.0
-379,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Plymouth County,,,25023.0,-1.0,-7.0,9.0,-2.0,-2.0,0.0
-380,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Suffolk County,,,25025.0,6.0,-2.0,6.0,1.0,-1.0,0.0
-381,massachusetts,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Worcester County,,,25027.0,3.0,-7.0,2.0,22.0,-2.0,-1.0
-382,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,,,US-WI,,7.0,6.0,22.0,3.0,3.0,-1.0
-383,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Adams County,,,55001.0,56.0,12.0,,,-1.0,
-384,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Ashland County,,,55003.0,32.0,38.0,,,0.0,
-385,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Barron County,,,55005.0,12.0,3.0,,,1.0,
-386,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Bayfield County,,,55007.0,58.0,,,,,
-387,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Brown County,,,55009.0,7.0,6.0,10.0,-2.0,0.0,0.0
-388,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Buffalo County,,,55011.0,55.0,-12.0,,,,
-389,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Burnett County,,,55013.0,4.0,3.0,,,4.0,
-390,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Calumet County,,,55015.0,-21.0,5.0,,,-1.0,
-391,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Chippewa County,,,55017.0,2.0,-1.0,,,-3.0,
-392,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Clark County,,,55019.0,6.0,-3.0,,,-3.0,
-393,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Columbia County,,,55021.0,12.0,7.0,,-7.0,8.0,
-394,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Crawford County,,,55023.0,14.0,24.0,,,6.0,
-395,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Dane County,,,55025.0,10.0,8.0,10.0,-5.0,7.0,-1.0
-396,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Dodge County,,,55027.0,16.0,-1.0,0.0,,-1.0,-2.0
-397,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Door County,,,55029.0,52.0,33.0,,,4.0,
-398,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Douglas County,,,55031.0,10.0,3.0,,,10.0,
-399,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Dunn County,,,55033.0,18.0,10.0,,-6.0,4.0,
-400,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Eau Claire County,,,55035.0,11.0,3.0,2.0,11.0,2.0,-1.0
-401,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Fond du Lac County,,,55039.0,9.0,7.0,0.0,,3.0,-2.0
-402,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Forest County,,,55041.0,5.0,,,,,
-403,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Grant County,,,55043.0,22.0,13.0,,,8.0,
-404,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Green County,,,55045.0,2.0,7.0,,,-3.0,
-405,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Green Lake County,,,55047.0,12.0,11.0,,,5.0,
-406,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Iowa County,,,55049.0,5.0,0.0,,,8.0,
-407,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Iron County,,,55051.0,3.0,,,,,
-408,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Jackson County,,,55053.0,12.0,9.0,,16.0,1.0,
-409,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Jefferson County,,,55055.0,15.0,9.0,-4.0,6.0,7.0,-2.0
-410,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Juneau County,,,55057.0,12.0,7.0,,13.0,0.0,
-411,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Kenosha County,,,55059.0,11.0,7.0,2.0,-25.0,2.0,-1.0
-412,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Kewaunee County,,,55061.0,19.0,3.0,,,5.0,
-413,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,La Crosse County,,,55063.0,8.0,2.0,10.0,8.0,3.0,-1.0
-414,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Lafayette County,,,55065.0,24.0,4.0,,,-4.0,
-415,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Langlade County,,,55067.0,-1.0,14.0,,,2.0,
-416,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Lincoln County,,,55069.0,11.0,-3.0,,,-6.0,
-417,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Manitowoc County,,,55071.0,10.0,3.0,-18.0,,0.0,0.0
-418,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Marathon County,,,55073.0,5.0,1.0,22.0,,-1.0,0.0
-419,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Marinette County,,,55075.0,7.0,2.0,9.0,,-7.0,
-420,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Marquette County,,,55077.0,16.0,3.0,,,0.0,
-421,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Milwaukee County,,,55079.0,8.0,6.0,4.0,-2.0,1.0,0.0
-422,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Monroe County,,,55081.0,4.0,6.0,,13.0,-1.0,
-423,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Oconto County,,,55083.0,3.0,16.0,,,7.0,
-424,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Oneida County,,,55085.0,11.0,0.0,13.0,,7.0,
-425,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Outagamie County,,,55087.0,8.0,6.0,-8.0,4.0,3.0,-1.0
-426,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Ozaukee County,,,55089.0,11.0,-2.0,14.0,,4.0,0.0
-427,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Pierce County,,,55093.0,16.0,-2.0,,,3.0,
-428,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Polk County,,,55095.0,7.0,-4.0,47.0,,-1.0,
-429,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Portage County,,,55097.0,5.0,6.0,-12.0,,4.0,-1.0
-430,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Price County,,,55099.0,-1.0,1.0,,,,
-431,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Racine County,,,55101.0,7.0,4.0,7.0,8.0,0.0,-1.0
-432,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Richland County,,,55103.0,18.0,,,,3.0,
-433,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Rock County,,,55105.0,12.0,9.0,4.0,-1.0,2.0,-1.0
-434,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Rusk County,,,55107.0,6.0,9.0,,,,
-435,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Sauk County,,,55111.0,16.0,7.0,14.0,,3.0,-1.0
-436,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Sawyer County,,,55113.0,14.0,14.0,,,5.0,
-437,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Shawano County,,,55115.0,7.0,5.0,,,1.0,
-438,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Sheboygan County,,,55117.0,4.0,16.0,8.0,-3.0,2.0,0.0
-439,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,St. Croix County,,,55109.0,5.0,5.0,,17.0,4.0,-2.0
-440,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Taylor County,,,55119.0,5.0,2.0,,,2.0,
-441,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Trempealeau County,,,55121.0,9.0,7.0,,,9.0,
-442,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Vernon County,,,55123.0,14.0,8.0,,,10.0,
-443,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Vilas County,,,55125.0,25.0,5.0,14.0,,1.0,
-444,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Walworth County,,,55127.0,24.0,11.0,45.0,,6.0,-2.0
-445,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Washburn County,,,55129.0,21.0,-1.0,,,,
-446,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Washington County,,,55131.0,8.0,6.0,-5.0,,3.0,-1.0
-447,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Waukesha County,,,55133.0,8.0,11.0,4.0,6.0,7.0,-1.0
-448,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Waupaca County,,,55135.0,12.0,4.0,,,1.0,
-449,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Waushara County,,,55137.0,19.0,7.0,,,3.0,
-450,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Winnebago County,,,55139.0,13.0,7.0,19.0,,5.0,-1.0
-451,wisconsin,us,2020-02-05T21:53:02,1,0,0,2020-02-15,United States,Wood County,,,55141.0,4.0,-1.0,,,1.0,0.0
-452,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,,,US-TX,,3.0,3.0,12.0,3.0,1.0,-1.0
-453,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Anderson County,,,48001.0,3.0,1.0,,,-1.0,
-454,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Andrews County,,,48003.0,-3.0,-8.0,,,-6.0,
-455,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Angelina County,,,48005.0,2.0,1.0,-5.0,-8.0,-6.0,0.0
-456,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Aransas County,,,48007.0,19.0,4.0,60.0,,-1.0,
-457,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Atascosa County,,,48013.0,3.0,-1.0,,3.0,3.0,
-458,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Austin County,,,48015.0,3.0,3.0,,,-5.0,
-459,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bailey County,,,48017.0,-1.0,-6.0,,,,
-460,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bandera County,,,48019.0,71.0,4.0,,,11.0,
-461,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bastrop County,,,48021.0,7.0,7.0,51.0,,2.0,-1.0
-462,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bee County,,,48025.0,1.0,3.0,,,-4.0,
-463,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bell County,,,48027.0,5.0,-3.0,-4.0,10.0,-3.0,0.0
-464,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bexar County,,,48029.0,4.0,7.0,6.0,0.0,0.0,-1.0
-465,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Blanco County,,,48031.0,26.0,28.0,,,,
-466,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bosque County,,,48035.0,0.0,6.0,,,2.0,
-467,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Bowie County,,,48037.0,6.0,0.0,4.0,-7.0,-2.0,0.0
-468,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Brazoria County,,,48039.0,5.0,5.0,22.0,3.0,3.0,-2.0
-469,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Brazos County,,,48041.0,1.0,-1.0,19.0,,3.0,-1.0
-470,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Brewster County,,,48043.0,33.0,16.0,,,,
-471,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Brooks County,,,48047.0,-6.0,1.0,,4.0,,
-472,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Brown County,,,48049.0,0.0,6.0,,,-1.0,
-473,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Burleson County,,,48051.0,7.0,2.0,,,-8.0,
-474,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Burnet County,,,48053.0,4.0,6.0,2.0,,-1.0,
-475,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Caldwell County,,,48055.0,4.0,12.0,,10.0,-2.0,
-476,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Calhoun County,,,48057.0,5.0,11.0,,,7.0,
-477,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Callahan County,,,48059.0,0.0,-3.0,,3.0,6.0,
-478,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Cameron County,,,48061.0,6.0,4.0,22.0,3.0,-1.0,-1.0
-479,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Camp County,,,48063.0,12.0,6.0,,,4.0,
-480,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Carson County,,,48065.0,,-2.0,,13.0,,
-481,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Cass County,,,48067.0,4.0,-2.0,,-6.0,3.0,
-482,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Chambers County,,,48071.0,9.0,9.0,,-8.0,3.0,
-483,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Cherokee County,,,48073.0,7.0,-1.0,,,-4.0,
-484,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Childress County,,,48075.0,1.0,4.0,,-7.0,,
-485,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Clay County,,,48077.0,,,,-2.0,,
-486,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Coleman County,,,48083.0,-10.0,-4.0,,,,
-487,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Collin County,,,48085.0,4.0,1.0,24.0,4.0,0.0,-1.0
-488,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Colorado County,,,48089.0,8.0,3.0,,-2.0,-4.0,
-489,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Comal County,,,48091.0,3.0,14.0,12.0,4.0,-1.0,-1.0
-490,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Comanche County,,,48093.0,0.0,2.0,,,,
-491,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Cooke County,,,48097.0,2.0,-2.0,,,4.0,
-492,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Coryell County,,,48099.0,2.0,7.0,14.0,,-2.0,-1.0
-493,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Crane County,,,48103.0,,-7.0,,,,
-494,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Crosby County,,,48107.0,,6.0,,,,
-495,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Culberson County,,,48109.0,-3.0,,,-4.0,,
-496,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Dallam County,,,48111.0,3.0,4.0,,,,
-497,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Dallas County,,,48113.0,4.0,1.0,16.0,0.0,1.0,-1.0
-498,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Dawson County,,,48115.0,13.0,15.0,,,,
-499,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Deaf Smith County,,,48117.0,1.0,-12.0,,,-10.0,
-500,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Denton County,,,48121.0,1.0,1.0,18.0,7.0,0.0,0.0
-501,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,DeWitt County,,,48123.0,1.0,-4.0,,,-6.0,
-502,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Dimmit County,,,48127.0,-6.0,-3.0,,,,
-503,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Duval County,,,48131.0,,-7.0,,,,
-504,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Eastland County,,,48133.0,0.0,15.0,,5.0,2.0,
-505,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Ector County,,,48135.0,0.0,-4.0,,4.0,2.0,-1.0
-506,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,El Paso County,,,48141.0,4.0,3.0,-18.0,17.0,0.0,-1.0
-507,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Ellis County,,,48139.0,2.0,0.0,16.0,9.0,-1.0,0.0
-508,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Erath County,,,48143.0,2.0,2.0,,,-1.0,
-509,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Falls County,,,48145.0,-1.0,-2.0,,,2.0,
-510,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Fannin County,,,48147.0,9.0,6.0,,,0.0,
-511,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Fayette County,,,48149.0,13.0,8.0,,8.0,2.0,
-512,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Fort Bend County,,,48157.0,4.0,1.0,23.0,5.0,0.0,-1.0
-513,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Franklin County,,,48159.0,-3.0,3.0,,-4.0,,
-514,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Freestone County,,,48161.0,12.0,8.0,,17.0,-4.0,
-515,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Frio County,,,48163.0,-8.0,3.0,,-14.0,-5.0,
-516,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Gaines County,,,48165.0,7.0,6.0,,,5.0,
-517,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Galveston County,,,48167.0,17.0,16.0,51.0,17.0,1.0,-1.0
-518,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Garza County,,,48169.0,-2.0,-15.0,,,,
-519,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Gillespie County,,,48171.0,55.0,16.0,34.0,,3.0,
-520,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Gonzales County,,,48177.0,-3.0,-6.0,,,-9.0,
-521,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Gray County,,,48179.0,1.0,1.0,,,2.0,
-522,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Grayson County,,,48181.0,3.0,3.0,18.0,,-1.0,0.0
-523,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Gregg County,,,48183.0,3.0,1.0,3.0,,1.0,0.0
-524,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Grimes County,,,48185.0,6.0,-12.0,,,1.0,
-525,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Guadalupe County,,,48187.0,3.0,2.0,31.0,16.0,-3.0,-1.0
-526,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hale County,,,48189.0,8.0,2.0,,,7.0,
-527,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hall County,,,48191.0,,,,6.0,,
-528,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hamilton County,,,48193.0,0.0,5.0,,,,
-529,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hardeman County,,,48197.0,,10.0,,-1.0,,
-530,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hardin County,,,48199.0,0.0,5.0,,,7.0,
-531,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Harris County,,,48201.0,3.0,2.0,13.0,0.0,2.0,-1.0
-532,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Harrison County,,,48203.0,6.0,2.0,-1.0,,-4.0,0.0
-533,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Haskell County,,,48207.0,6.0,3.0,,,,
-534,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hays County,,,48209.0,11.0,5.0,1.0,12.0,1.0,-1.0
-535,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Henderson County,,,48213.0,5.0,2.0,,,2.0,-1.0
-536,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hidalgo County,,,48215.0,3.0,1.0,10.0,3.0,2.0,-1.0
-537,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hill County,,,48217.0,2.0,6.0,,8.0,4.0,
-538,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hockley County,,,48219.0,45.0,10.0,,,1.0,
-539,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hood County,,,48221.0,9.0,4.0,,,1.0,0.0
-540,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hopkins County,,,48223.0,0.0,9.0,,1.0,2.0,
-541,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Houston County,,,48225.0,3.0,8.0,,,-5.0,
-542,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Howard County,,,48227.0,8.0,-4.0,,2.0,2.0,
-543,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hunt County,,,48231.0,1.0,-3.0,,3.0,1.0,-1.0
-544,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Hutchinson County,,,48233.0,4.0,6.0,,,3.0,
-545,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Jack County,,,48237.0,9.0,,,,,
-546,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Jackson County,,,48239.0,-2.0,-1.0,,-6.0,,
-547,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Jasper County,,,48241.0,1.0,2.0,,,6.0,
-548,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Jefferson County,,,48245.0,7.0,5.0,-20.0,6.0,4.0,0.0
-549,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Jim Hogg County,,,48247.0,,3.0,,,,
-550,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Jim Wells County,,,48249.0,1.0,1.0,,,-6.0,
-551,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Johnson County,,,48251.0,1.0,-2.0,26.0,,1.0,-1.0
-552,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Jones County,,,48253.0,0.0,1.0,,,-8.0,
-553,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Karnes County,,,48255.0,4.0,1.0,,,4.0,
-554,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Kaufman County,,,48257.0,2.0,6.0,,-1.0,3.0,0.0
-555,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Kendall County,,,48259.0,1.0,-3.0,,2.0,1.0,
-556,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Kerr County,,,48265.0,3.0,-2.0,5.0,,3.0,
-557,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Kimble County,,,48267.0,33.0,,,9.0,,
-558,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Kleberg County,,,48273.0,2.0,-1.0,97.0,25.0,2.0,
-559,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,La Salle County,,,48283.0,-25.0,2.0,,-15.0,,
-560,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Lamar County,,,48277.0,6.0,-4.0,,,2.0,
-561,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Lamb County,,,48279.0,3.0,2.0,,,4.0,
-562,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Lampasas County,,,48281.0,0.0,-3.0,,,-1.0,
-563,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Lavaca County,,,48285.0,9.0,12.0,,,-2.0,
-564,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Lee County,,,48287.0,5.0,1.0,,,-6.0,
-565,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Leon County,,,48289.0,7.0,4.0,,6.0,,
-566,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Liberty County,,,48291.0,3.0,10.0,,-7.0,6.0,-1.0
-567,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Limestone County,,,48293.0,0.0,4.0,,,-5.0,
-568,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Live Oak County,,,48297.0,16.0,6.0,,9.0,6.0,
-569,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Llano County,,,48299.0,0.0,6.0,6.0,,-2.0,
-570,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Loving County,,,48301.0,,-24.0,,,,
-571,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Lubbock County,,,48303.0,4.0,3.0,26.0,-3.0,3.0,-1.0
-572,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Madison County,,,48313.0,1.0,13.0,,,,
-573,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Marion County,,,48315.0,-1.0,5.0,,,,
-574,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Martin County,,,48317.0,-12.0,1.0,,,,
-575,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Matagorda County,,,48321.0,10.0,13.0,,,7.0,
-576,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Maverick County,,,48323.0,5.0,3.0,-2.0,-2.0,0.0,-2.0
-577,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,McCulloch County,,,48307.0,7.0,1.0,,,,
-578,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,McLennan County,,,48309.0,4.0,6.0,28.0,3.0,2.0,-1.0
-579,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Medina County,,,48325.0,4.0,7.0,,-2.0,-1.0,
-580,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Midland County,,,48329.0,2.0,1.0,37.0,5.0,0.0,-2.0
-581,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Milam County,,,48331.0,7.0,1.0,,,-4.0,
-582,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Mitchell County,,,48335.0,30.0,3.0,,,,
-583,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Montague County,,,48337.0,7.0,-9.0,,,0.0,
-584,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Montgomery County,,,48339.0,4.0,6.0,14.0,9.0,1.0,-1.0
-585,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Moore County,,,48341.0,-5.0,1.0,,-7.0,-5.0,
-586,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Morris County,,,48343.0,-1.0,-4.0,,,,
-587,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Nacogdoches County,,,48347.0,1.0,3.0,8.0,-6.0,1.0,
-588,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Navarro County,,,48349.0,8.0,3.0,,20.0,-3.0,
-589,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Newton County,,,48351.0,,-2.0,,,,
-590,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Nolan County,,,48353.0,1.0,9.0,,0.0,7.0,
-591,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Nueces County,,,48355.0,8.0,7.0,62.0,4.0,0.0,-1.0
-592,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Ochiltree County,,,48357.0,-1.0,-2.0,,,,
-593,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Oldham County,,,48359.0,,,,-4.0,,
-594,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Orange County,,,48361.0,16.0,8.0,13.0,4.0,1.0,0.0
-595,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Palo Pinto County,,,48363.0,5.0,2.0,,,0.0,
-596,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Panola County,,,48365.0,0.0,5.0,,-16.0,3.0,
-597,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Parker County,,,48367.0,3.0,-3.0,10.0,-2.0,-1.0,-1.0
-598,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Parmer County,,,48369.0,,-6.0,,,,
-599,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Pecos County,,,48371.0,0.0,-4.0,,-1.0,-5.0,
-600,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Polk County,,,48373.0,3.0,5.0,0.0,-16.0,0.0,
-601,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Potter County,,,48375.0,4.0,2.0,-5.0,0.0,-4.0,0.0
-602,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Presidio County,,,48377.0,11.0,0.0,,,,
-603,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Rains County,,,48379.0,-10.0,-18.0,,,,
-604,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Randall County,,,48381.0,2.0,1.0,-7.0,,-1.0,-1.0
-605,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Reagan County,,,48383.0,,-10.0,,,,
-606,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Red River County,,,48387.0,,-4.0,,,,
-607,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Reeves County,,,48389.0,-13.0,-9.0,,10.0,7.0,
-608,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Refugio County,,,48391.0,0.0,-2.0,,6.0,,
-609,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Robertson County,,,48395.0,3.0,-8.0,,7.0,-8.0,
-610,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Rockwall County,,,48397.0,2.0,4.0,,2.0,-1.0,0.0
-611,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Runnels County,,,48399.0,0.0,7.0,,,,
-612,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Rusk County,,,48401.0,4.0,-3.0,,,1.0,
-613,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Sabine County,,,48403.0,,12.0,,,,
-614,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,San Jacinto County,,,48407.0,22.0,1.0,,,1.0,
-615,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,San Patricio County,,,48409.0,10.0,-2.0,15.0,5.0,1.0,-2.0
-616,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,San Saba County,,,48411.0,5.0,,,,,
-617,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Scurry County,,,48415.0,3.0,14.0,,,2.0,
-618,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Shelby County,,,48419.0,5.0,6.0,,,1.0,
-619,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Sherman County,,,48421.0,,,,-3.0,,
-620,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Smith County,,,48423.0,5.0,1.0,56.0,4.0,3.0,0.0
-621,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Somervell County,,,48425.0,-5.0,7.0,,,,
-622,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Starr County,,,48427.0,4.0,-5.0,2.0,,6.0,
-623,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Stephens County,,,48429.0,10.0,,,,,
-624,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Swisher County,,,48437.0,,-4.0,,,,
-625,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Tarrant County,,,48439.0,1.0,1.0,11.0,1.0,2.0,-1.0
-626,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Taylor County,,,48441.0,5.0,2.0,,3.0,2.0,-1.0
-627,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Terry County,,,48445.0,11.0,14.0,,,,
-628,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Titus County,,,48449.0,3.0,4.0,,,2.0,
-629,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Tom Green County,,,48451.0,12.0,0.0,28.0,,3.0,-2.0
-630,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Travis County,,,48453.0,4.0,0.0,23.0,-3.0,3.0,-1.0
-631,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Trinity County,,,48455.0,-1.0,1.0,,,-12.0,
-632,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Tyler County,,,48457.0,5.0,3.0,,,0.0,
-633,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Upshur County,,,48459.0,8.0,-2.0,,,3.0,
-634,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Upton County,,,48461.0,,-5.0,,,,
-635,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Uvalde County,,,48463.0,9.0,7.0,,,-5.0,
-636,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Val Verde County,,,48465.0,1.0,-2.0,39.0,,-3.0,
-637,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Van Zandt County,,,48467.0,2.0,-1.0,-11.0,1.0,7.0,
-638,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Victoria County,,,48469.0,3.0,3.0,,15.0,-4.0,-1.0
-639,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Walker County,,,48471.0,2.0,3.0,10.0,12.0,0.0,0.0
-640,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Waller County,,,48473.0,4.0,9.0,,27.0,1.0,
-641,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Ward County,,,48475.0,-2.0,-3.0,,36.0,9.0,
-642,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Washington County,,,48477.0,8.0,1.0,,,-3.0,
-643,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Webb County,,,48479.0,5.0,-2.0,-11.0,-1.0,0.0,-1.0
-644,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Wharton County,,,48481.0,4.0,3.0,,-4.0,0.0,
-645,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Wichita County,,,48485.0,5.0,2.0,,-9.0,0.0,0.0
-646,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Wilbarger County,,,48487.0,5.0,0.0,,-6.0,2.0,
-647,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Willacy County,,,48489.0,4.0,-2.0,,,-2.0,
-648,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Williamson County,,,48491.0,5.0,2.0,9.0,-8.0,1.0,0.0
-649,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Wilson County,,,48493.0,4.0,6.0,,,2.0,
-650,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Winkler County,,,48495.0,10.0,-1.0,,,12.0,
-651,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Wise County,,,48497.0,4.0,-1.0,-8.0,-2.0,4.0,0.0
-652,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Wood County,,,48499.0,11.0,2.0,,,1.0,
-653,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Yoakum County,,,48501.0,,9.0,,,,
-654,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Young County,,,48503.0,-2.0,10.0,,,-2.0,
-655,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Zapata County,,,48505.0,17.0,0.0,,,,
-656,texas,us,2020-02-13T18:53:02,1,0,0,2020-02-15,United States,Zavala County,,,48507.0,0.0,12.0,,,,
-657,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,,,US-WA,,2.0,-1.0,8.0,8.0,-3.0,0.0
-658,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Adams County,,,53001.0,11.0,2.0,,28.0,-5.0,
-659,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Asotin County,,,53003.0,0.0,,,,0.0,
-660,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Benton County,,,53005.0,6.0,-3.0,-4.0,-2.0,-1.0,-1.0
-661,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Chelan County,,,53007.0,7.0,9.0,14.0,7.0,-4.0,-1.0
-662,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Clallam County,,,53009.0,10.0,7.0,49.0,,-2.0,0.0
-663,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Clark County,,,53011.0,0.0,-7.0,-18.0,-1.0,-4.0,0.0
-664,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Cowlitz County,,,53015.0,3.0,-1.0,-7.0,12.0,-3.0,1.0
-665,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Douglas County,,,53017.0,1.0,5.0,,,-4.0,
-666,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Franklin County,,,53021.0,5.0,2.0,,8.0,-1.0,-1.0
-667,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Grant County,,,53025.0,7.0,7.0,18.0,5.0,-3.0,-1.0
-668,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Grays Harbor County,,,53027.0,15.0,3.0,30.0,,-3.0,0.0
-669,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Island County,,,53029.0,6.0,-2.0,50.0,5.0,-4.0,0.0
-670,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Jefferson County,,,53031.0,11.0,2.0,54.0,,-3.0,
-671,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,King County,,,53033.0,-1.0,-2.0,11.0,8.0,-3.0,0.0
-672,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Kitsap County,,,53035.0,-1.0,-3.0,-14.0,20.0,-6.0,0.0
-673,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Kittitas County,,,53037.0,13.0,4.0,9.0,17.0,-8.0,
-674,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Klickitat County,,,53039.0,7.0,1.0,,,-7.0,
-675,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Lewis County,,,53041.0,4.0,-2.0,-2.0,-1.0,-7.0,1.0
-676,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Mason County,,,53045.0,-1.0,-3.0,15.0,,-2.0,0.0
-677,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Okanogan County,,,53047.0,11.0,7.0,,,-3.0,
-678,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Pacific County,,,53049.0,24.0,15.0,4.0,,-5.0,
-679,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Pend Oreille County,,,53051.0,5.0,6.0,,,,
-680,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Pierce County,,,53053.0,-3.0,-5.0,-9.0,11.0,-3.0,0.0
-681,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,San Juan County,,,53055.0,21.0,11.0,,,-2.0,
-682,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Skagit County,,,53057.0,5.0,-2.0,9.0,35.0,-3.0,0.0
-683,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Skamania County,,,53059.0,,,-50.0,,,
-684,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Snohomish County,,,53061.0,1.0,-5.0,16.0,10.0,-3.0,-1.0
-685,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Spokane County,,,53063.0,8.0,1.0,11.0,6.0,-1.0,0.0
-686,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Stevens County,,,53065.0,6.0,7.0,,,3.0,
-687,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Thurston County,,,53067.0,0.0,-2.0,-13.0,8.0,-3.0,0.0
-688,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Walla Walla County,,,53071.0,0.0,-12.0,,4.0,-1.0,
-689,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Whatcom County,,,53073.0,8.0,1.0,29.0,37.0,-1.0,0.0
-690,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Whitman County,,,53075.0,-4.0,-3.0,,,-2.0,
-691,washington,us,2020-02-09T07:03:04,1,0,1,2020-02-15,United States,Yakima County,,,53077.0,6.0,4.0,4.0,3.0,-5.0,0.0
-692,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,,,US-AZ,,3.0,2.0,13.0,3.0,-1.0,0.0
-693,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Apache County,,,4001.0,16.0,3.0,26.0,96.0,-2.0,
-694,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Cochise County,,,4003.0,3.0,3.0,21.0,0.0,-2.0,0.0
-695,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Coconino County,,,4005.0,8.0,3.0,21.0,14.0,2.0,-1.0
-696,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Gila County,,,4007.0,8.0,19.0,24.0,,-2.0,0.0
-697,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Graham County,,,4009.0,-2.0,14.0,,,-3.0,
-698,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Greenlee County,,,4011.0,,-3.0,,,,
-699,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,La Paz County,,,4012.0,-2.0,-9.0,24.0,-4.0,-9.0,
-700,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Maricopa County,,,4013.0,2.0,0.0,11.0,1.0,-1.0,0.0
-701,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Mohave County,,,4015.0,8.0,11.0,49.0,6.0,0.0,0.0
-702,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Navajo County,,,4017.0,4.0,7.0,24.0,0.0,1.0,-1.0
-703,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Pima County,,,4019.0,3.0,7.0,22.0,0.0,0.0,0.0
-704,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Pinal County,,,4021.0,15.0,-4.0,13.0,4.0,-2.0,0.0
-705,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Santa Cruz County,,,4023.0,-1.0,-8.0,-5.0,7.0,0.0,-1.0
-706,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Yavapai County,,,4025.0,9.0,14.0,17.0,8.0,2.0,0.0
-707,arizona,us,2020-02-01T19:43:03,1,0,0,2020-02-15,United States,Yuma County,,,4027.0,2.0,0.0,1.0,-1.0,-3.0,0.0
+,sub_region_1,country_region_code,date,Confirmed,Recovered,Deaths,country_region,sub_region_2,metro_area,iso_3166_2_code,census_fips_code,retail_and_recreation_percent_change_from_baseline,grocery_and_pharmacy_percent_change_from_baseline,parks_percent_change_from_baseline,transit_stations_percent_change_from_baseline,workplaces_percent_change_from_baseline,residential_percent_change_from_baseline
+0,arizona,us,2020-02-15,1,0,0,United States,,,US-AZ,,3.0,2.0,13.0,3.0,-1.0,0.0
+1,arizona,us,2020-02-15,1,0,0,United States,Apache County,,,4001.0,16.0,3.0,26.0,96.0,-2.0,
+2,arizona,us,2020-02-15,1,0,0,United States,Cochise County,,,4003.0,3.0,3.0,21.0,0.0,-2.0,0.0
+3,arizona,us,2020-02-15,1,0,0,United States,Coconino County,,,4005.0,8.0,3.0,21.0,14.0,2.0,-1.0
+4,arizona,us,2020-02-15,1,0,0,United States,Gila County,,,4007.0,8.0,19.0,24.0,,-2.0,0.0
+5,arizona,us,2020-02-15,1,0,0,United States,Graham County,,,4009.0,-2.0,14.0,,,-3.0,
+6,arizona,us,2020-02-15,1,0,0,United States,Greenlee County,,,4011.0,,-3.0,,,,
+7,arizona,us,2020-02-15,1,0,0,United States,La Paz County,,,4012.0,-2.0,-9.0,24.0,-4.0,-9.0,
+8,arizona,us,2020-02-15,1,0,0,United States,Maricopa County,,,4013.0,2.0,0.0,11.0,1.0,-1.0,0.0
+9,arizona,us,2020-02-15,1,0,0,United States,Mohave County,,,4015.0,8.0,11.0,49.0,6.0,0.0,0.0
+10,arizona,us,2020-02-15,1,0,0,United States,Navajo County,,,4017.0,4.0,7.0,24.0,0.0,1.0,-1.0
+11,arizona,us,2020-02-15,1,0,0,United States,Pima County,,,4019.0,3.0,7.0,22.0,0.0,0.0,0.0
+12,arizona,us,2020-02-15,1,0,0,United States,Pinal County,,,4021.0,15.0,-4.0,13.0,4.0,-2.0,0.0
+13,arizona,us,2020-02-15,1,0,0,United States,Santa Cruz County,,,4023.0,-1.0,-8.0,-5.0,7.0,0.0,-1.0
+14,arizona,us,2020-02-15,1,0,0,United States,Yavapai County,,,4025.0,9.0,14.0,17.0,8.0,2.0,0.0
+15,arizona,us,2020-02-15,1,0,0,United States,Yuma County,,,4027.0,2.0,0.0,1.0,-1.0,-3.0,0.0
+16,california,us,2020-02-15,8,0,0,United States,,,US-CA,,1.0,1.0,19.0,1.0,-1.0,0.0
+17,california,us,2020-02-15,8,0,0,United States,Alameda County,,,6001.0,1.0,0.0,22.0,1.0,0.0,-1.0
+18,california,us,2020-02-15,8,0,0,United States,Amador County,,,6005.0,13.0,2.0,,,-3.0,
+19,california,us,2020-02-15,8,0,0,United States,Butte County,,,6007.0,4.0,5.0,28.0,-4.0,-2.0,-1.0
+20,california,us,2020-02-15,8,0,0,United States,Calaveras County,,,6009.0,18.0,27.0,61.0,,2.0,
+21,california,us,2020-02-15,8,0,0,United States,Colusa County,,,6011.0,10.0,-9.0,,18.0,3.0,
+22,california,us,2020-02-15,8,0,0,United States,Contra Costa County,,,6013.0,-1.0,1.0,25.0,7.0,-2.0,-1.0
+23,california,us,2020-02-15,8,0,0,United States,Del Norte County,,,6015.0,17.0,13.0,,,0.0,
+24,california,us,2020-02-15,8,0,0,United States,El Dorado County,,,6017.0,2.0,-5.0,24.0,,-1.0,0.0
+25,california,us,2020-02-15,8,0,0,United States,Fresno County,,,6019.0,4.0,0.0,24.0,8.0,-5.0,0.0
+26,california,us,2020-02-15,8,0,0,United States,Glenn County,,,6021.0,11.0,7.0,,23.0,-2.0,
+27,california,us,2020-02-15,8,0,0,United States,Humboldt County,,,6023.0,9.0,-1.0,56.0,-27.0,-2.0,-1.0
+28,california,us,2020-02-15,8,0,0,United States,Imperial County,,,6025.0,4.0,-6.0,13.0,7.0,1.0,-1.0
+29,california,us,2020-02-15,8,0,0,United States,Inyo County,,,6027.0,18.0,9.0,50.0,,-8.0,
+30,california,us,2020-02-15,8,0,0,United States,Kern County,,,6029.0,5.0,4.0,55.0,11.0,-5.0,0.0
+31,california,us,2020-02-15,8,0,0,United States,Kings County,,,6031.0,7.0,-1.0,14.0,16.0,-3.0,-1.0
+32,california,us,2020-02-15,8,0,0,United States,Lake County,,,6033.0,5.0,18.0,21.0,,-6.0,-1.0
+33,california,us,2020-02-15,8,0,0,United States,Lassen County,,,6035.0,9.0,-1.0,,,-4.0,
+34,california,us,2020-02-15,8,0,0,United States,Los Angeles County,,,6037.0,1.0,0.0,13.0,-1.0,-1.0,0.0
+35,california,us,2020-02-15,8,0,0,United States,Madera County,,,6039.0,7.0,-3.0,65.0,23.0,-3.0,0.0
+36,california,us,2020-02-15,8,0,0,United States,Marin County,,,6041.0,6.0,7.0,28.0,18.0,-3.0,-1.0
+37,california,us,2020-02-15,8,0,0,United States,Mariposa County,,,6043.0,47.0,40.0,73.0,,-6.0,
+38,california,us,2020-02-15,8,0,0,United States,Mendocino County,,,6045.0,13.0,10.0,51.0,,-2.0,-1.0
+39,california,us,2020-02-15,8,0,0,United States,Merced County,,,6047.0,5.0,3.0,54.0,19.0,-4.0,-1.0
+40,california,us,2020-02-15,8,0,0,United States,Mono County,,,6051.0,-8.0,16.0,49.0,,2.0,
+41,california,us,2020-02-15,8,0,0,United States,Monterey County,,,6053.0,11.0,8.0,29.0,15.0,-1.0,-1.0
+42,california,us,2020-02-15,8,0,0,United States,Napa County,,,6055.0,12.0,8.0,47.0,,1.0,-1.0
+43,california,us,2020-02-15,8,0,0,United States,Nevada County,,,6057.0,1.0,-7.0,12.0,-14.0,-3.0,0.0
+44,california,us,2020-02-15,8,0,0,United States,Orange County,,,6059.0,0.0,0.0,9.0,0.0,0.0,0.0
+45,california,us,2020-02-15,8,0,0,United States,Placer County,,,6061.0,2.0,11.0,31.0,-1.0,-1.0,0.0
+46,california,us,2020-02-15,8,0,0,United States,Plumas County,,,6063.0,18.0,15.0,,,,
+47,california,us,2020-02-15,8,0,0,United States,Riverside County,,,6065.0,3.0,2.0,6.0,2.0,-2.0,0.0
+48,california,us,2020-02-15,8,0,0,United States,Sacramento County,,,6067.0,1.0,1.0,26.0,-2.0,-2.0,-1.0
+49,california,us,2020-02-15,8,0,0,United States,San Benito County,,,6069.0,1.0,0.0,27.0,,-4.0,-1.0
+50,california,us,2020-02-15,8,0,0,United States,San Bernardino County,,,6071.0,2.0,-1.0,8.0,1.0,-2.0,0.0
+51,california,us,2020-02-15,8,0,0,United States,San Diego County,,,6073.0,3.0,-1.0,14.0,2.0,-1.0,0.0
+52,california,us,2020-02-15,8,0,0,United States,San Francisco County,,,6075.0,6.0,2.0,23.0,-1.0,1.0,-1.0
+53,california,us,2020-02-15,8,0,0,United States,San Joaquin County,,,6077.0,3.0,3.0,31.0,10.0,-2.0,-1.0
+54,california,us,2020-02-15,8,0,0,United States,San Luis Obispo County,,,6079.0,16.0,9.0,43.0,9.0,0.0,-1.0
+55,california,us,2020-02-15,8,0,0,United States,San Mateo County,,,6081.0,-1.0,0.0,24.0,-3.0,-1.0,-1.0
+56,california,us,2020-02-15,8,0,0,United States,Santa Barbara County,,,6083.0,4.0,0.0,20.0,5.0,-2.0,0.0
+57,california,us,2020-02-15,8,0,0,United States,Santa Clara County,,,6085.0,-3.0,-3.0,18.0,0.0,-1.0,-1.0
+58,california,us,2020-02-15,8,0,0,United States,Santa Cruz County,,,6087.0,12.0,9.0,34.0,14.0,-4.0,-1.0
+59,california,us,2020-02-15,8,0,0,United States,Shasta County,,,6089.0,4.0,6.0,47.0,0.0,1.0,-1.0
+60,california,us,2020-02-15,8,0,0,United States,Siskiyou County,,,6093.0,13.0,7.0,33.0,7.0,-1.0,
+61,california,us,2020-02-15,8,0,0,United States,Solano County,,,6095.0,4.0,-3.0,28.0,3.0,-2.0,-1.0
+62,california,us,2020-02-15,8,0,0,United States,Sonoma County,,,6097.0,9.0,6.0,31.0,2.0,-1.0,-1.0
+63,california,us,2020-02-15,8,0,0,United States,Stanislaus County,,,6099.0,2.0,-3.0,31.0,15.0,-2.0,-1.0
+64,california,us,2020-02-15,8,0,0,United States,Sutter County,,,6101.0,2.0,3.0,,,-3.0,0.0
+65,california,us,2020-02-15,8,0,0,United States,Tehama County,,,6103.0,5.0,10.0,42.0,-1.0,-3.0,-1.0
+66,california,us,2020-02-15,8,0,0,United States,Trinity County,,,6105.0,-5.0,10.0,,,,
+67,california,us,2020-02-15,8,0,0,United States,Tulare County,,,6107.0,1.0,1.0,22.0,15.0,-3.0,0.0
+68,california,us,2020-02-15,8,0,0,United States,Tuolumne County,,,6109.0,8.0,22.0,31.0,,-1.0,
+69,california,us,2020-02-15,8,0,0,United States,Ventura County,,,6111.0,1.0,-2.0,7.0,-1.0,-1.0,0.0
+70,california,us,2020-02-15,8,0,0,United States,Yolo County,,,6113.0,2.0,3.0,11.0,12.0,-1.0,-1.0
+71,california,us,2020-02-15,8,0,0,United States,Yuba County,,,6115.0,10.0,-1.0,45.0,,1.0,0.0
+72,illinois,us,2020-02-15,2,2,0,United States,,,US-IL,,4.0,3.0,10.0,3.0,3.0,-1.0
+73,illinois,us,2020-02-15,2,2,0,United States,Adams County,,,17001.0,3.0,2.0,,,6.0,0.0
+74,illinois,us,2020-02-15,2,2,0,United States,Bond County,,,17005.0,14.0,,,7.0,2.0,
+75,illinois,us,2020-02-15,2,2,0,United States,Boone County,,,17007.0,14.0,5.0,,20.0,3.0,
+76,illinois,us,2020-02-15,2,2,0,United States,Bureau County,,,17011.0,13.0,4.0,,,7.0,
+77,illinois,us,2020-02-15,2,2,0,United States,Carroll County,,,17015.0,-3.0,,,,2.0,
+78,illinois,us,2020-02-15,2,2,0,United States,Cass County,,,17017.0,3.0,-10.0,,,-27.0,
+79,illinois,us,2020-02-15,2,2,0,United States,Champaign County,,,17019.0,14.0,8.0,31.0,4.0,7.0,0.0
+80,illinois,us,2020-02-15,2,2,0,United States,Christian County,,,17021.0,1.0,5.0,,,4.0,
+81,illinois,us,2020-02-15,2,2,0,United States,Clark County,,,17023.0,4.0,,,-9.0,4.0,
+82,illinois,us,2020-02-15,2,2,0,United States,Clay County,,,17025.0,-4.0,,,,,
+83,illinois,us,2020-02-15,2,2,0,United States,Clinton County,,,17027.0,5.0,-5.0,,,-3.0,
+84,illinois,us,2020-02-15,2,2,0,United States,Coles County,,,17029.0,1.0,0.0,,,-2.0,
+85,illinois,us,2020-02-15,2,2,0,United States,Cook County,,,17031.0,5.0,1.0,17.0,3.0,2.0,-1.0
+86,illinois,us,2020-02-15,2,2,0,United States,Crawford County,,,17033.0,4.0,-2.0,,,4.0,
+87,illinois,us,2020-02-15,2,2,0,United States,Cumberland County,,,17035.0,,,,-6.0,,
+88,illinois,us,2020-02-15,2,2,0,United States,De Witt County,,,17039.0,3.0,7.0,,,4.0,
+89,illinois,us,2020-02-15,2,2,0,United States,DeKalb County,,,17037.0,11.0,13.0,,,6.0,-1.0
+90,illinois,us,2020-02-15,2,2,0,United States,Douglas County,,,17041.0,20.0,2.0,,,0.0,
+91,illinois,us,2020-02-15,2,2,0,United States,DuPage County,,,17043.0,5.0,5.0,10.0,1.0,4.0,-1.0
+92,illinois,us,2020-02-15,2,2,0,United States,Edgar County,,,17045.0,5.0,-6.0,,,-2.0,
+93,illinois,us,2020-02-15,2,2,0,United States,Effingham County,,,17049.0,8.0,2.0,,-1.0,-1.0,
+94,illinois,us,2020-02-15,2,2,0,United States,Fayette County,,,17051.0,14.0,-7.0,,,-3.0,
+95,illinois,us,2020-02-15,2,2,0,United States,Ford County,,,17053.0,3.0,-15.0,,,,
+96,illinois,us,2020-02-15,2,2,0,United States,Franklin County,,,17055.0,-1.0,4.0,,-2.0,0.0,
+97,illinois,us,2020-02-15,2,2,0,United States,Fulton County,,,17057.0,2.0,3.0,,,-3.0,
+98,illinois,us,2020-02-15,2,2,0,United States,Greene County,,,17061.0,0.0,-3.0,,,,
+99,illinois,us,2020-02-15,2,2,0,United States,Grundy County,,,17063.0,20.0,2.0,,-19.0,-2.0,
+100,illinois,us,2020-02-15,2,2,0,United States,Hancock County,,,17067.0,19.0,4.0,,,4.0,
+101,illinois,us,2020-02-15,2,2,0,United States,Henry County,,,17073.0,2.0,-2.0,,14.0,-3.0,
+102,illinois,us,2020-02-15,2,2,0,United States,Iroquois County,,,17075.0,5.0,0.0,,-3.0,1.0,
+103,illinois,us,2020-02-15,2,2,0,United States,Jackson County,,,17077.0,7.0,3.0,43.0,,-4.0,
+104,illinois,us,2020-02-15,2,2,0,United States,Jasper County,,,17079.0,19.0,,,,,
+105,illinois,us,2020-02-15,2,2,0,United States,Jefferson County,,,17081.0,10.0,6.0,,3.0,-2.0,
+106,illinois,us,2020-02-15,2,2,0,United States,Jersey County,,,17083.0,6.0,,,,10.0,
+107,illinois,us,2020-02-15,2,2,0,United States,Jo Daviess County,,,17085.0,18.0,44.0,,,5.0,
+108,illinois,us,2020-02-15,2,2,0,United States,Johnson County,,,17087.0,,,0.0,,,
+109,illinois,us,2020-02-15,2,2,0,United States,Kane County,,,17089.0,4.0,6.0,2.0,5.0,3.0,-1.0
+110,illinois,us,2020-02-15,2,2,0,United States,Kankakee County,,,17091.0,9.0,10.0,,-4.0,2.0,-1.0
+111,illinois,us,2020-02-15,2,2,0,United States,Kendall County,,,17093.0,4.0,7.0,9.0,,2.0,-1.0
+112,illinois,us,2020-02-15,2,2,0,United States,Knox County,,,17095.0,-1.0,25.0,,22.0,0.0,
+113,illinois,us,2020-02-15,2,2,0,United States,Lake County,,,17097.0,4.0,7.0,4.0,5.0,2.0,-1.0
+114,illinois,us,2020-02-15,2,2,0,United States,LaSalle County,,,17099.0,11.0,2.0,5.0,6.0,-1.0,-2.0
+115,illinois,us,2020-02-15,2,2,0,United States,Lawrence County,,,17101.0,2.0,,,,-4.0,
+116,illinois,us,2020-02-15,2,2,0,United States,Lee County,,,17103.0,17.0,17.0,,,4.0,
+117,illinois,us,2020-02-15,2,2,0,United States,Livingston County,,,17105.0,6.0,11.0,,,0.0,
+118,illinois,us,2020-02-15,2,2,0,United States,Logan County,,,17107.0,11.0,10.0,,,-3.0,
+119,illinois,us,2020-02-15,2,2,0,United States,Macon County,,,17115.0,1.0,-2.0,,2.0,-1.0,-1.0
+120,illinois,us,2020-02-15,2,2,0,United States,Macoupin County,,,17117.0,6.0,2.0,,,6.0,
+121,illinois,us,2020-02-15,2,2,0,United States,Madison County,,,17119.0,3.0,4.0,25.0,5.0,3.0,0.0
+122,illinois,us,2020-02-15,2,2,0,United States,Marion County,,,17121.0,4.0,7.0,,,-1.0,
+123,illinois,us,2020-02-15,2,2,0,United States,Mason County,,,17125.0,8.0,-13.0,,,0.0,
+124,illinois,us,2020-02-15,2,2,0,United States,Massac County,,,17127.0,15.0,-1.0,,,6.0,
+125,illinois,us,2020-02-15,2,2,0,United States,McDonough County,,,17109.0,14.0,9.0,,,6.0,
+126,illinois,us,2020-02-15,2,2,0,United States,McHenry County,,,17111.0,4.0,5.0,-1.0,14.0,6.0,-1.0
+127,illinois,us,2020-02-15,2,2,0,United States,McLean County,,,17113.0,9.0,7.0,1.0,1.0,7.0,-1.0
+128,illinois,us,2020-02-15,2,2,0,United States,Mercer County,,,17131.0,10.0,,,,7.0,
+129,illinois,us,2020-02-15,2,2,0,United States,Monroe County,,,17133.0,-3.0,2.0,,,5.0,
+130,illinois,us,2020-02-15,2,2,0,United States,Montgomery County,,,17135.0,4.0,0.0,,,1.0,
+131,illinois,us,2020-02-15,2,2,0,United States,Morgan County,,,17137.0,7.0,-3.0,,,-1.0,
+132,illinois,us,2020-02-15,2,2,0,United States,Moultrie County,,,17139.0,-8.0,,,,,
+133,illinois,us,2020-02-15,2,2,0,United States,Ogle County,,,17141.0,6.0,4.0,,,2.0,
+134,illinois,us,2020-02-15,2,2,0,United States,Peoria County,,,17143.0,7.0,5.0,4.0,1.0,5.0,0.0
+135,illinois,us,2020-02-15,2,2,0,United States,Perry County,,,17145.0,9.0,18.0,,,4.0,
+136,illinois,us,2020-02-15,2,2,0,United States,Piatt County,,,17147.0,13.0,,,,9.0,
+137,illinois,us,2020-02-15,2,2,0,United States,Pike County,,,17149.0,-4.0,-4.0,,,,
+138,illinois,us,2020-02-15,2,2,0,United States,Randolph County,,,17157.0,3.0,-4.0,,,-8.0,
+139,illinois,us,2020-02-15,2,2,0,United States,Richland County,,,17159.0,8.0,,,,-4.0,
+140,illinois,us,2020-02-15,2,2,0,United States,Rock Island County,,,17161.0,5.0,16.0,57.0,-4.0,5.0,-1.0
+141,illinois,us,2020-02-15,2,2,0,United States,Saline County,,,17165.0,-1.0,-4.0,,,4.0,
+142,illinois,us,2020-02-15,2,2,0,United States,Sangamon County,,,17167.0,5.0,0.0,25.0,0.0,-1.0,0.0
+143,illinois,us,2020-02-15,2,2,0,United States,Shelby County,,,17173.0,10.0,,,,-4.0,
+144,illinois,us,2020-02-15,2,2,0,United States,St. Clair County,,,17163.0,4.0,-3.0,16.0,0.0,0.0,0.0
+145,illinois,us,2020-02-15,2,2,0,United States,Stephenson County,,,17177.0,7.0,16.0,,,6.0,
+146,illinois,us,2020-02-15,2,2,0,United States,Tazewell County,,,17179.0,3.0,-3.0,12.0,,5.0,0.0
+147,illinois,us,2020-02-15,2,2,0,United States,Union County,,,17181.0,10.0,-7.0,,,14.0,
+148,illinois,us,2020-02-15,2,2,0,United States,Vermilion County,,,17183.0,2.0,4.0,,-9.0,-5.0,-1.0
+149,illinois,us,2020-02-15,2,2,0,United States,Wabash County,,,17185.0,15.0,-11.0,,,,
+150,illinois,us,2020-02-15,2,2,0,United States,Warren County,,,17187.0,13.0,8.0,,,-22.0,
+151,illinois,us,2020-02-15,2,2,0,United States,Washington County,,,17189.0,2.0,-1.0,,,10.0,
+152,illinois,us,2020-02-15,2,2,0,United States,Wayne County,,,17191.0,-1.0,-2.0,,,6.0,
+153,illinois,us,2020-02-15,2,2,0,United States,White County,,,17193.0,-6.0,,,,,
+154,illinois,us,2020-02-15,2,2,0,United States,Whiteside County,,,17195.0,6.0,6.0,,,1.0,-2.0
+155,illinois,us,2020-02-15,2,2,0,United States,Will County,,,17197.0,3.0,1.0,23.0,7.0,1.0,-1.0
+156,illinois,us,2020-02-15,2,2,0,United States,Williamson County,,,17199.0,2.0,-1.0,,-3.0,-1.0,0.0
+157,illinois,us,2020-02-15,2,2,0,United States,Winnebago County,,,17201.0,13.0,10.0,11.0,2.0,1.0,-2.0
+158,illinois,us,2020-02-15,2,2,0,United States,Woodford County,,,17203.0,9.0,-12.0,,,5.0,
+159,massachusetts,us,2020-02-15,1,0,0,United States,,,US-MA,,2.0,-4.0,0.0,3.0,-2.0,0.0
+160,massachusetts,us,2020-02-15,1,0,0,United States,Barnstable County,,,25001.0,8.0,4.0,10.0,8.0,1.0,0.0
+161,massachusetts,us,2020-02-15,1,0,0,United States,Berkshire County,,,25003.0,12.0,-4.0,11.0,20.0,-1.0,0.0
+162,massachusetts,us,2020-02-15,1,0,0,United States,Bristol County,,,25005.0,0.0,-4.0,-17.0,0.0,-2.0,0.0
+163,massachusetts,us,2020-02-15,1,0,0,United States,Dukes County,,,25007.0,18.0,-4.0,,,-2.0,
+164,massachusetts,us,2020-02-15,1,0,0,United States,Essex County,,,25009.0,1.0,-7.0,5.0,1.0,-3.0,0.0
+165,massachusetts,us,2020-02-15,1,0,0,United States,Franklin County,,,25011.0,16.0,-1.0,,,-2.0,
+166,massachusetts,us,2020-02-15,1,0,0,United States,Hampden County,,,25013.0,6.0,-4.0,4.0,13.0,-3.0,-1.0
+167,massachusetts,us,2020-02-15,1,0,0,United States,Hampshire County,,,25015.0,3.0,1.0,,,5.0,-1.0
+168,massachusetts,us,2020-02-15,1,0,0,United States,Middlesex County,,,25017.0,0.0,-5.0,-7.0,-1.0,-1.0,0.0
+169,massachusetts,us,2020-02-15,1,0,0,United States,Nantucket County,,,25019.0,-4.0,4.0,,,,
+170,massachusetts,us,2020-02-15,1,0,0,United States,Norfolk County,,,25021.0,-1.0,-5.0,-2.0,1.0,0.0,-1.0
+171,massachusetts,us,2020-02-15,1,0,0,United States,Plymouth County,,,25023.0,-1.0,-7.0,9.0,-2.0,-2.0,0.0
+172,massachusetts,us,2020-02-15,1,0,0,United States,Suffolk County,,,25025.0,6.0,-2.0,6.0,1.0,-1.0,0.0
+173,massachusetts,us,2020-02-15,1,0,0,United States,Worcester County,,,25027.0,3.0,-7.0,2.0,22.0,-2.0,-1.0
+174,texas,us,2020-02-15,1,0,0,United States,,,US-TX,,3.0,3.0,12.0,3.0,1.0,-1.0
+175,texas,us,2020-02-15,1,0,0,United States,Anderson County,,,48001.0,3.0,1.0,,,-1.0,
+176,texas,us,2020-02-15,1,0,0,United States,Andrews County,,,48003.0,-3.0,-8.0,,,-6.0,
+177,texas,us,2020-02-15,1,0,0,United States,Angelina County,,,48005.0,2.0,1.0,-5.0,-8.0,-6.0,0.0
+178,texas,us,2020-02-15,1,0,0,United States,Aransas County,,,48007.0,19.0,4.0,60.0,,-1.0,
+179,texas,us,2020-02-15,1,0,0,United States,Atascosa County,,,48013.0,3.0,-1.0,,3.0,3.0,
+180,texas,us,2020-02-15,1,0,0,United States,Austin County,,,48015.0,3.0,3.0,,,-5.0,
+181,texas,us,2020-02-15,1,0,0,United States,Bailey County,,,48017.0,-1.0,-6.0,,,,
+182,texas,us,2020-02-15,1,0,0,United States,Bandera County,,,48019.0,71.0,4.0,,,11.0,
+183,texas,us,2020-02-15,1,0,0,United States,Bastrop County,,,48021.0,7.0,7.0,51.0,,2.0,-1.0
+184,texas,us,2020-02-15,1,0,0,United States,Bee County,,,48025.0,1.0,3.0,,,-4.0,
+185,texas,us,2020-02-15,1,0,0,United States,Bell County,,,48027.0,5.0,-3.0,-4.0,10.0,-3.0,0.0
+186,texas,us,2020-02-15,1,0,0,United States,Bexar County,,,48029.0,4.0,7.0,6.0,0.0,0.0,-1.0
+187,texas,us,2020-02-15,1,0,0,United States,Blanco County,,,48031.0,26.0,28.0,,,,
+188,texas,us,2020-02-15,1,0,0,United States,Bosque County,,,48035.0,0.0,6.0,,,2.0,
+189,texas,us,2020-02-15,1,0,0,United States,Bowie County,,,48037.0,6.0,0.0,4.0,-7.0,-2.0,0.0
+190,texas,us,2020-02-15,1,0,0,United States,Brazoria County,,,48039.0,5.0,5.0,22.0,3.0,3.0,-2.0
+191,texas,us,2020-02-15,1,0,0,United States,Brazos County,,,48041.0,1.0,-1.0,19.0,,3.0,-1.0
+192,texas,us,2020-02-15,1,0,0,United States,Brewster County,,,48043.0,33.0,16.0,,,,
+193,texas,us,2020-02-15,1,0,0,United States,Brooks County,,,48047.0,-6.0,1.0,,4.0,,
+194,texas,us,2020-02-15,1,0,0,United States,Brown County,,,48049.0,0.0,6.0,,,-1.0,
+195,texas,us,2020-02-15,1,0,0,United States,Burleson County,,,48051.0,7.0,2.0,,,-8.0,
+196,texas,us,2020-02-15,1,0,0,United States,Burnet County,,,48053.0,4.0,6.0,2.0,,-1.0,
+197,texas,us,2020-02-15,1,0,0,United States,Caldwell County,,,48055.0,4.0,12.0,,10.0,-2.0,
+198,texas,us,2020-02-15,1,0,0,United States,Calhoun County,,,48057.0,5.0,11.0,,,7.0,
+199,texas,us,2020-02-15,1,0,0,United States,Callahan County,,,48059.0,0.0,-3.0,,3.0,6.0,
+200,texas,us,2020-02-15,1,0,0,United States,Cameron County,,,48061.0,6.0,4.0,22.0,3.0,-1.0,-1.0
+201,texas,us,2020-02-15,1,0,0,United States,Camp County,,,48063.0,12.0,6.0,,,4.0,
+202,texas,us,2020-02-15,1,0,0,United States,Carson County,,,48065.0,,-2.0,,13.0,,
+203,texas,us,2020-02-15,1,0,0,United States,Cass County,,,48067.0,4.0,-2.0,,-6.0,3.0,
+204,texas,us,2020-02-15,1,0,0,United States,Chambers County,,,48071.0,9.0,9.0,,-8.0,3.0,
+205,texas,us,2020-02-15,1,0,0,United States,Cherokee County,,,48073.0,7.0,-1.0,,,-4.0,
+206,texas,us,2020-02-15,1,0,0,United States,Childress County,,,48075.0,1.0,4.0,,-7.0,,
+207,texas,us,2020-02-15,1,0,0,United States,Clay County,,,48077.0,,,,-2.0,,
+208,texas,us,2020-02-15,1,0,0,United States,Coleman County,,,48083.0,-10.0,-4.0,,,,
+209,texas,us,2020-02-15,1,0,0,United States,Collin County,,,48085.0,4.0,1.0,24.0,4.0,0.0,-1.0
+210,texas,us,2020-02-15,1,0,0,United States,Colorado County,,,48089.0,8.0,3.0,,-2.0,-4.0,
+211,texas,us,2020-02-15,1,0,0,United States,Comal County,,,48091.0,3.0,14.0,12.0,4.0,-1.0,-1.0
+212,texas,us,2020-02-15,1,0,0,United States,Comanche County,,,48093.0,0.0,2.0,,,,
+213,texas,us,2020-02-15,1,0,0,United States,Cooke County,,,48097.0,2.0,-2.0,,,4.0,
+214,texas,us,2020-02-15,1,0,0,United States,Coryell County,,,48099.0,2.0,7.0,14.0,,-2.0,-1.0
+215,texas,us,2020-02-15,1,0,0,United States,Crane County,,,48103.0,,-7.0,,,,
+216,texas,us,2020-02-15,1,0,0,United States,Crosby County,,,48107.0,,6.0,,,,
+217,texas,us,2020-02-15,1,0,0,United States,Culberson County,,,48109.0,-3.0,,,-4.0,,
+218,texas,us,2020-02-15,1,0,0,United States,Dallam County,,,48111.0,3.0,4.0,,,,
+219,texas,us,2020-02-15,1,0,0,United States,Dallas County,,,48113.0,4.0,1.0,16.0,0.0,1.0,-1.0
+220,texas,us,2020-02-15,1,0,0,United States,Dawson County,,,48115.0,13.0,15.0,,,,
+221,texas,us,2020-02-15,1,0,0,United States,Deaf Smith County,,,48117.0,1.0,-12.0,,,-10.0,
+222,texas,us,2020-02-15,1,0,0,United States,Denton County,,,48121.0,1.0,1.0,18.0,7.0,0.0,0.0
+223,texas,us,2020-02-15,1,0,0,United States,DeWitt County,,,48123.0,1.0,-4.0,,,-6.0,
+224,texas,us,2020-02-15,1,0,0,United States,Dimmit County,,,48127.0,-6.0,-3.0,,,,
+225,texas,us,2020-02-15,1,0,0,United States,Duval County,,,48131.0,,-7.0,,,,
+226,texas,us,2020-02-15,1,0,0,United States,Eastland County,,,48133.0,0.0,15.0,,5.0,2.0,
+227,texas,us,2020-02-15,1,0,0,United States,Ector County,,,48135.0,0.0,-4.0,,4.0,2.0,-1.0
+228,texas,us,2020-02-15,1,0,0,United States,El Paso County,,,48141.0,4.0,3.0,-18.0,17.0,0.0,-1.0
+229,texas,us,2020-02-15,1,0,0,United States,Ellis County,,,48139.0,2.0,0.0,16.0,9.0,-1.0,0.0
+230,texas,us,2020-02-15,1,0,0,United States,Erath County,,,48143.0,2.0,2.0,,,-1.0,
+231,texas,us,2020-02-15,1,0,0,United States,Falls County,,,48145.0,-1.0,-2.0,,,2.0,
+232,texas,us,2020-02-15,1,0,0,United States,Fannin County,,,48147.0,9.0,6.0,,,0.0,
+233,texas,us,2020-02-15,1,0,0,United States,Fayette County,,,48149.0,13.0,8.0,,8.0,2.0,
+234,texas,us,2020-02-15,1,0,0,United States,Fort Bend County,,,48157.0,4.0,1.0,23.0,5.0,0.0,-1.0
+235,texas,us,2020-02-15,1,0,0,United States,Franklin County,,,48159.0,-3.0,3.0,,-4.0,,
+236,texas,us,2020-02-15,1,0,0,United States,Freestone County,,,48161.0,12.0,8.0,,17.0,-4.0,
+237,texas,us,2020-02-15,1,0,0,United States,Frio County,,,48163.0,-8.0,3.0,,-14.0,-5.0,
+238,texas,us,2020-02-15,1,0,0,United States,Gaines County,,,48165.0,7.0,6.0,,,5.0,
+239,texas,us,2020-02-15,1,0,0,United States,Galveston County,,,48167.0,17.0,16.0,51.0,17.0,1.0,-1.0
+240,texas,us,2020-02-15,1,0,0,United States,Garza County,,,48169.0,-2.0,-15.0,,,,
+241,texas,us,2020-02-15,1,0,0,United States,Gillespie County,,,48171.0,55.0,16.0,34.0,,3.0,
+242,texas,us,2020-02-15,1,0,0,United States,Gonzales County,,,48177.0,-3.0,-6.0,,,-9.0,
+243,texas,us,2020-02-15,1,0,0,United States,Gray County,,,48179.0,1.0,1.0,,,2.0,
+244,texas,us,2020-02-15,1,0,0,United States,Grayson County,,,48181.0,3.0,3.0,18.0,,-1.0,0.0
+245,texas,us,2020-02-15,1,0,0,United States,Gregg County,,,48183.0,3.0,1.0,3.0,,1.0,0.0
+246,texas,us,2020-02-15,1,0,0,United States,Grimes County,,,48185.0,6.0,-12.0,,,1.0,
+247,texas,us,2020-02-15,1,0,0,United States,Guadalupe County,,,48187.0,3.0,2.0,31.0,16.0,-3.0,-1.0
+248,texas,us,2020-02-15,1,0,0,United States,Hale County,,,48189.0,8.0,2.0,,,7.0,
+249,texas,us,2020-02-15,1,0,0,United States,Hall County,,,48191.0,,,,6.0,,
+250,texas,us,2020-02-15,1,0,0,United States,Hamilton County,,,48193.0,0.0,5.0,,,,
+251,texas,us,2020-02-15,1,0,0,United States,Hardeman County,,,48197.0,,10.0,,-1.0,,
+252,texas,us,2020-02-15,1,0,0,United States,Hardin County,,,48199.0,0.0,5.0,,,7.0,
+253,texas,us,2020-02-15,1,0,0,United States,Harris County,,,48201.0,3.0,2.0,13.0,0.0,2.0,-1.0
+254,texas,us,2020-02-15,1,0,0,United States,Harrison County,,,48203.0,6.0,2.0,-1.0,,-4.0,0.0
+255,texas,us,2020-02-15,1,0,0,United States,Haskell County,,,48207.0,6.0,3.0,,,,
+256,texas,us,2020-02-15,1,0,0,United States,Hays County,,,48209.0,11.0,5.0,1.0,12.0,1.0,-1.0
+257,texas,us,2020-02-15,1,0,0,United States,Henderson County,,,48213.0,5.0,2.0,,,2.0,-1.0
+258,texas,us,2020-02-15,1,0,0,United States,Hidalgo County,,,48215.0,3.0,1.0,10.0,3.0,2.0,-1.0
+259,texas,us,2020-02-15,1,0,0,United States,Hill County,,,48217.0,2.0,6.0,,8.0,4.0,
+260,texas,us,2020-02-15,1,0,0,United States,Hockley County,,,48219.0,45.0,10.0,,,1.0,
+261,texas,us,2020-02-15,1,0,0,United States,Hood County,,,48221.0,9.0,4.0,,,1.0,0.0
+262,texas,us,2020-02-15,1,0,0,United States,Hopkins County,,,48223.0,0.0,9.0,,1.0,2.0,
+263,texas,us,2020-02-15,1,0,0,United States,Houston County,,,48225.0,3.0,8.0,,,-5.0,
+264,texas,us,2020-02-15,1,0,0,United States,Howard County,,,48227.0,8.0,-4.0,,2.0,2.0,
+265,texas,us,2020-02-15,1,0,0,United States,Hunt County,,,48231.0,1.0,-3.0,,3.0,1.0,-1.0
+266,texas,us,2020-02-15,1,0,0,United States,Hutchinson County,,,48233.0,4.0,6.0,,,3.0,
+267,texas,us,2020-02-15,1,0,0,United States,Jack County,,,48237.0,9.0,,,,,
+268,texas,us,2020-02-15,1,0,0,United States,Jackson County,,,48239.0,-2.0,-1.0,,-6.0,,
+269,texas,us,2020-02-15,1,0,0,United States,Jasper County,,,48241.0,1.0,2.0,,,6.0,
+270,texas,us,2020-02-15,1,0,0,United States,Jefferson County,,,48245.0,7.0,5.0,-20.0,6.0,4.0,0.0
+271,texas,us,2020-02-15,1,0,0,United States,Jim Hogg County,,,48247.0,,3.0,,,,
+272,texas,us,2020-02-15,1,0,0,United States,Jim Wells County,,,48249.0,1.0,1.0,,,-6.0,
+273,texas,us,2020-02-15,1,0,0,United States,Johnson County,,,48251.0,1.0,-2.0,26.0,,1.0,-1.0
+274,texas,us,2020-02-15,1,0,0,United States,Jones County,,,48253.0,0.0,1.0,,,-8.0,
+275,texas,us,2020-02-15,1,0,0,United States,Karnes County,,,48255.0,4.0,1.0,,,4.0,
+276,texas,us,2020-02-15,1,0,0,United States,Kaufman County,,,48257.0,2.0,6.0,,-1.0,3.0,0.0
+277,texas,us,2020-02-15,1,0,0,United States,Kendall County,,,48259.0,1.0,-3.0,,2.0,1.0,
+278,texas,us,2020-02-15,1,0,0,United States,Kerr County,,,48265.0,3.0,-2.0,5.0,,3.0,
+279,texas,us,2020-02-15,1,0,0,United States,Kimble County,,,48267.0,33.0,,,9.0,,
+280,texas,us,2020-02-15,1,0,0,United States,Kleberg County,,,48273.0,2.0,-1.0,97.0,25.0,2.0,
+281,texas,us,2020-02-15,1,0,0,United States,La Salle County,,,48283.0,-25.0,2.0,,-15.0,,
+282,texas,us,2020-02-15,1,0,0,United States,Lamar County,,,48277.0,6.0,-4.0,,,2.0,
+283,texas,us,2020-02-15,1,0,0,United States,Lamb County,,,48279.0,3.0,2.0,,,4.0,
+284,texas,us,2020-02-15,1,0,0,United States,Lampasas County,,,48281.0,0.0,-3.0,,,-1.0,
+285,texas,us,2020-02-15,1,0,0,United States,Lavaca County,,,48285.0,9.0,12.0,,,-2.0,
+286,texas,us,2020-02-15,1,0,0,United States,Lee County,,,48287.0,5.0,1.0,,,-6.0,
+287,texas,us,2020-02-15,1,0,0,United States,Leon County,,,48289.0,7.0,4.0,,6.0,,
+288,texas,us,2020-02-15,1,0,0,United States,Liberty County,,,48291.0,3.0,10.0,,-7.0,6.0,-1.0
+289,texas,us,2020-02-15,1,0,0,United States,Limestone County,,,48293.0,0.0,4.0,,,-5.0,
+290,texas,us,2020-02-15,1,0,0,United States,Live Oak County,,,48297.0,16.0,6.0,,9.0,6.0,
+291,texas,us,2020-02-15,1,0,0,United States,Llano County,,,48299.0,0.0,6.0,6.0,,-2.0,
+292,texas,us,2020-02-15,1,0,0,United States,Loving County,,,48301.0,,-24.0,,,,
+293,texas,us,2020-02-15,1,0,0,United States,Lubbock County,,,48303.0,4.0,3.0,26.0,-3.0,3.0,-1.0
+294,texas,us,2020-02-15,1,0,0,United States,Madison County,,,48313.0,1.0,13.0,,,,
+295,texas,us,2020-02-15,1,0,0,United States,Marion County,,,48315.0,-1.0,5.0,,,,
+296,texas,us,2020-02-15,1,0,0,United States,Martin County,,,48317.0,-12.0,1.0,,,,
+297,texas,us,2020-02-15,1,0,0,United States,Matagorda County,,,48321.0,10.0,13.0,,,7.0,
+298,texas,us,2020-02-15,1,0,0,United States,Maverick County,,,48323.0,5.0,3.0,-2.0,-2.0,0.0,-2.0
+299,texas,us,2020-02-15,1,0,0,United States,McCulloch County,,,48307.0,7.0,1.0,,,,
+300,texas,us,2020-02-15,1,0,0,United States,McLennan County,,,48309.0,4.0,6.0,28.0,3.0,2.0,-1.0
+301,texas,us,2020-02-15,1,0,0,United States,Medina County,,,48325.0,4.0,7.0,,-2.0,-1.0,
+302,texas,us,2020-02-15,1,0,0,United States,Midland County,,,48329.0,2.0,1.0,37.0,5.0,0.0,-2.0
+303,texas,us,2020-02-15,1,0,0,United States,Milam County,,,48331.0,7.0,1.0,,,-4.0,
+304,texas,us,2020-02-15,1,0,0,United States,Mitchell County,,,48335.0,30.0,3.0,,,,
+305,texas,us,2020-02-15,1,0,0,United States,Montague County,,,48337.0,7.0,-9.0,,,0.0,
+306,texas,us,2020-02-15,1,0,0,United States,Montgomery County,,,48339.0,4.0,6.0,14.0,9.0,1.0,-1.0
+307,texas,us,2020-02-15,1,0,0,United States,Moore County,,,48341.0,-5.0,1.0,,-7.0,-5.0,
+308,texas,us,2020-02-15,1,0,0,United States,Morris County,,,48343.0,-1.0,-4.0,,,,
+309,texas,us,2020-02-15,1,0,0,United States,Nacogdoches County,,,48347.0,1.0,3.0,8.0,-6.0,1.0,
+310,texas,us,2020-02-15,1,0,0,United States,Navarro County,,,48349.0,8.0,3.0,,20.0,-3.0,
+311,texas,us,2020-02-15,1,0,0,United States,Newton County,,,48351.0,,-2.0,,,,
+312,texas,us,2020-02-15,1,0,0,United States,Nolan County,,,48353.0,1.0,9.0,,0.0,7.0,
+313,texas,us,2020-02-15,1,0,0,United States,Nueces County,,,48355.0,8.0,7.0,62.0,4.0,0.0,-1.0
+314,texas,us,2020-02-15,1,0,0,United States,Ochiltree County,,,48357.0,-1.0,-2.0,,,,
+315,texas,us,2020-02-15,1,0,0,United States,Oldham County,,,48359.0,,,,-4.0,,
+316,texas,us,2020-02-15,1,0,0,United States,Orange County,,,48361.0,16.0,8.0,13.0,4.0,1.0,0.0
+317,texas,us,2020-02-15,1,0,0,United States,Palo Pinto County,,,48363.0,5.0,2.0,,,0.0,
+318,texas,us,2020-02-15,1,0,0,United States,Panola County,,,48365.0,0.0,5.0,,-16.0,3.0,
+319,texas,us,2020-02-15,1,0,0,United States,Parker County,,,48367.0,3.0,-3.0,10.0,-2.0,-1.0,-1.0
+320,texas,us,2020-02-15,1,0,0,United States,Parmer County,,,48369.0,,-6.0,,,,
+321,texas,us,2020-02-15,1,0,0,United States,Pecos County,,,48371.0,0.0,-4.0,,-1.0,-5.0,
+322,texas,us,2020-02-15,1,0,0,United States,Polk County,,,48373.0,3.0,5.0,0.0,-16.0,0.0,
+323,texas,us,2020-02-15,1,0,0,United States,Potter County,,,48375.0,4.0,2.0,-5.0,0.0,-4.0,0.0
+324,texas,us,2020-02-15,1,0,0,United States,Presidio County,,,48377.0,11.0,0.0,,,,
+325,texas,us,2020-02-15,1,0,0,United States,Rains County,,,48379.0,-10.0,-18.0,,,,
+326,texas,us,2020-02-15,1,0,0,United States,Randall County,,,48381.0,2.0,1.0,-7.0,,-1.0,-1.0
+327,texas,us,2020-02-15,1,0,0,United States,Reagan County,,,48383.0,,-10.0,,,,
+328,texas,us,2020-02-15,1,0,0,United States,Red River County,,,48387.0,,-4.0,,,,
+329,texas,us,2020-02-15,1,0,0,United States,Reeves County,,,48389.0,-13.0,-9.0,,10.0,7.0,
+330,texas,us,2020-02-15,1,0,0,United States,Refugio County,,,48391.0,0.0,-2.0,,6.0,,
+331,texas,us,2020-02-15,1,0,0,United States,Robertson County,,,48395.0,3.0,-8.0,,7.0,-8.0,
+332,texas,us,2020-02-15,1,0,0,United States,Rockwall County,,,48397.0,2.0,4.0,,2.0,-1.0,0.0
+333,texas,us,2020-02-15,1,0,0,United States,Runnels County,,,48399.0,0.0,7.0,,,,
+334,texas,us,2020-02-15,1,0,0,United States,Rusk County,,,48401.0,4.0,-3.0,,,1.0,
+335,texas,us,2020-02-15,1,0,0,United States,Sabine County,,,48403.0,,12.0,,,,
+336,texas,us,2020-02-15,1,0,0,United States,San Jacinto County,,,48407.0,22.0,1.0,,,1.0,
+337,texas,us,2020-02-15,1,0,0,United States,San Patricio County,,,48409.0,10.0,-2.0,15.0,5.0,1.0,-2.0
+338,texas,us,2020-02-15,1,0,0,United States,San Saba County,,,48411.0,5.0,,,,,
+339,texas,us,2020-02-15,1,0,0,United States,Scurry County,,,48415.0,3.0,14.0,,,2.0,
+340,texas,us,2020-02-15,1,0,0,United States,Shelby County,,,48419.0,5.0,6.0,,,1.0,
+341,texas,us,2020-02-15,1,0,0,United States,Sherman County,,,48421.0,,,,-3.0,,
+342,texas,us,2020-02-15,1,0,0,United States,Smith County,,,48423.0,5.0,1.0,56.0,4.0,3.0,0.0
+343,texas,us,2020-02-15,1,0,0,United States,Somervell County,,,48425.0,-5.0,7.0,,,,
+344,texas,us,2020-02-15,1,0,0,United States,Starr County,,,48427.0,4.0,-5.0,2.0,,6.0,
+345,texas,us,2020-02-15,1,0,0,United States,Stephens County,,,48429.0,10.0,,,,,
+346,texas,us,2020-02-15,1,0,0,United States,Swisher County,,,48437.0,,-4.0,,,,
+347,texas,us,2020-02-15,1,0,0,United States,Tarrant County,,,48439.0,1.0,1.0,11.0,1.0,2.0,-1.0
+348,texas,us,2020-02-15,1,0,0,United States,Taylor County,,,48441.0,5.0,2.0,,3.0,2.0,-1.0
+349,texas,us,2020-02-15,1,0,0,United States,Terry County,,,48445.0,11.0,14.0,,,,
+350,texas,us,2020-02-15,1,0,0,United States,Titus County,,,48449.0,3.0,4.0,,,2.0,
+351,texas,us,2020-02-15,1,0,0,United States,Tom Green County,,,48451.0,12.0,0.0,28.0,,3.0,-2.0
+352,texas,us,2020-02-15,1,0,0,United States,Travis County,,,48453.0,4.0,0.0,23.0,-3.0,3.0,-1.0
+353,texas,us,2020-02-15,1,0,0,United States,Trinity County,,,48455.0,-1.0,1.0,,,-12.0,
+354,texas,us,2020-02-15,1,0,0,United States,Tyler County,,,48457.0,5.0,3.0,,,0.0,
+355,texas,us,2020-02-15,1,0,0,United States,Upshur County,,,48459.0,8.0,-2.0,,,3.0,
+356,texas,us,2020-02-15,1,0,0,United States,Upton County,,,48461.0,,-5.0,,,,
+357,texas,us,2020-02-15,1,0,0,United States,Uvalde County,,,48463.0,9.0,7.0,,,-5.0,
+358,texas,us,2020-02-15,1,0,0,United States,Val Verde County,,,48465.0,1.0,-2.0,39.0,,-3.0,
+359,texas,us,2020-02-15,1,0,0,United States,Van Zandt County,,,48467.0,2.0,-1.0,-11.0,1.0,7.0,
+360,texas,us,2020-02-15,1,0,0,United States,Victoria County,,,48469.0,3.0,3.0,,15.0,-4.0,-1.0
+361,texas,us,2020-02-15,1,0,0,United States,Walker County,,,48471.0,2.0,3.0,10.0,12.0,0.0,0.0
+362,texas,us,2020-02-15,1,0,0,United States,Waller County,,,48473.0,4.0,9.0,,27.0,1.0,
+363,texas,us,2020-02-15,1,0,0,United States,Ward County,,,48475.0,-2.0,-3.0,,36.0,9.0,
+364,texas,us,2020-02-15,1,0,0,United States,Washington County,,,48477.0,8.0,1.0,,,-3.0,
+365,texas,us,2020-02-15,1,0,0,United States,Webb County,,,48479.0,5.0,-2.0,-11.0,-1.0,0.0,-1.0
+366,texas,us,2020-02-15,1,0,0,United States,Wharton County,,,48481.0,4.0,3.0,,-4.0,0.0,
+367,texas,us,2020-02-15,1,0,0,United States,Wichita County,,,48485.0,5.0,2.0,,-9.0,0.0,0.0
+368,texas,us,2020-02-15,1,0,0,United States,Wilbarger County,,,48487.0,5.0,0.0,,-6.0,2.0,
+369,texas,us,2020-02-15,1,0,0,United States,Willacy County,,,48489.0,4.0,-2.0,,,-2.0,
+370,texas,us,2020-02-15,1,0,0,United States,Williamson County,,,48491.0,5.0,2.0,9.0,-8.0,1.0,0.0
+371,texas,us,2020-02-15,1,0,0,United States,Wilson County,,,48493.0,4.0,6.0,,,2.0,
+372,texas,us,2020-02-15,1,0,0,United States,Winkler County,,,48495.0,10.0,-1.0,,,12.0,
+373,texas,us,2020-02-15,1,0,0,United States,Wise County,,,48497.0,4.0,-1.0,-8.0,-2.0,4.0,0.0
+374,texas,us,2020-02-15,1,0,0,United States,Wood County,,,48499.0,11.0,2.0,,,1.0,
+375,texas,us,2020-02-15,1,0,0,United States,Yoakum County,,,48501.0,,9.0,,,,
+376,texas,us,2020-02-15,1,0,0,United States,Young County,,,48503.0,-2.0,10.0,,,-2.0,
+377,texas,us,2020-02-15,1,0,0,United States,Zapata County,,,48505.0,17.0,0.0,,,,
+378,texas,us,2020-02-15,1,0,0,United States,Zavala County,,,48507.0,0.0,12.0,,,,
+379,washington,us,2020-02-15,1,1,0,United States,,,US-WA,,2.0,-1.0,8.0,8.0,-3.0,0.0
+380,washington,us,2020-02-15,1,1,0,United States,Adams County,,,53001.0,11.0,2.0,,28.0,-5.0,
+381,washington,us,2020-02-15,1,1,0,United States,Asotin County,,,53003.0,0.0,,,,0.0,
+382,washington,us,2020-02-15,1,1,0,United States,Benton County,,,53005.0,6.0,-3.0,-4.0,-2.0,-1.0,-1.0
+383,washington,us,2020-02-15,1,1,0,United States,Chelan County,,,53007.0,7.0,9.0,14.0,7.0,-4.0,-1.0
+384,washington,us,2020-02-15,1,1,0,United States,Clallam County,,,53009.0,10.0,7.0,49.0,,-2.0,0.0
+385,washington,us,2020-02-15,1,1,0,United States,Clark County,,,53011.0,0.0,-7.0,-18.0,-1.0,-4.0,0.0
+386,washington,us,2020-02-15,1,1,0,United States,Cowlitz County,,,53015.0,3.0,-1.0,-7.0,12.0,-3.0,1.0
+387,washington,us,2020-02-15,1,1,0,United States,Douglas County,,,53017.0,1.0,5.0,,,-4.0,
+388,washington,us,2020-02-15,1,1,0,United States,Franklin County,,,53021.0,5.0,2.0,,8.0,-1.0,-1.0
+389,washington,us,2020-02-15,1,1,0,United States,Grant County,,,53025.0,7.0,7.0,18.0,5.0,-3.0,-1.0
+390,washington,us,2020-02-15,1,1,0,United States,Grays Harbor County,,,53027.0,15.0,3.0,30.0,,-3.0,0.0
+391,washington,us,2020-02-15,1,1,0,United States,Island County,,,53029.0,6.0,-2.0,50.0,5.0,-4.0,0.0
+392,washington,us,2020-02-15,1,1,0,United States,Jefferson County,,,53031.0,11.0,2.0,54.0,,-3.0,
+393,washington,us,2020-02-15,1,1,0,United States,King County,,,53033.0,-1.0,-2.0,11.0,8.0,-3.0,0.0
+394,washington,us,2020-02-15,1,1,0,United States,Kitsap County,,,53035.0,-1.0,-3.0,-14.0,20.0,-6.0,0.0
+395,washington,us,2020-02-15,1,1,0,United States,Kittitas County,,,53037.0,13.0,4.0,9.0,17.0,-8.0,
+396,washington,us,2020-02-15,1,1,0,United States,Klickitat County,,,53039.0,7.0,1.0,,,-7.0,
+397,washington,us,2020-02-15,1,1,0,United States,Lewis County,,,53041.0,4.0,-2.0,-2.0,-1.0,-7.0,1.0
+398,washington,us,2020-02-15,1,1,0,United States,Mason County,,,53045.0,-1.0,-3.0,15.0,,-2.0,0.0
+399,washington,us,2020-02-15,1,1,0,United States,Okanogan County,,,53047.0,11.0,7.0,,,-3.0,
+400,washington,us,2020-02-15,1,1,0,United States,Pacific County,,,53049.0,24.0,15.0,4.0,,-5.0,
+401,washington,us,2020-02-15,1,1,0,United States,Pend Oreille County,,,53051.0,5.0,6.0,,,,
+402,washington,us,2020-02-15,1,1,0,United States,Pierce County,,,53053.0,-3.0,-5.0,-9.0,11.0,-3.0,0.0
+403,washington,us,2020-02-15,1,1,0,United States,San Juan County,,,53055.0,21.0,11.0,,,-2.0,
+404,washington,us,2020-02-15,1,1,0,United States,Skagit County,,,53057.0,5.0,-2.0,9.0,35.0,-3.0,0.0
+405,washington,us,2020-02-15,1,1,0,United States,Skamania County,,,53059.0,,,-50.0,,,
+406,washington,us,2020-02-15,1,1,0,United States,Snohomish County,,,53061.0,1.0,-5.0,16.0,10.0,-3.0,-1.0
+407,washington,us,2020-02-15,1,1,0,United States,Spokane County,,,53063.0,8.0,1.0,11.0,6.0,-1.0,0.0
+408,washington,us,2020-02-15,1,1,0,United States,Stevens County,,,53065.0,6.0,7.0,,,3.0,
+409,washington,us,2020-02-15,1,1,0,United States,Thurston County,,,53067.0,0.0,-2.0,-13.0,8.0,-3.0,0.0
+410,washington,us,2020-02-15,1,1,0,United States,Walla Walla County,,,53071.0,0.0,-12.0,,4.0,-1.0,
+411,washington,us,2020-02-15,1,1,0,United States,Whatcom County,,,53073.0,8.0,1.0,29.0,37.0,-1.0,0.0
+412,washington,us,2020-02-15,1,1,0,United States,Whitman County,,,53075.0,-4.0,-3.0,,,-2.0,
+413,washington,us,2020-02-15,1,1,0,United States,Yakima County,,,53077.0,6.0,4.0,4.0,3.0,-5.0,0.0
+414,wisconsin,us,2020-02-15,1,0,0,United States,,,US-WI,,7.0,6.0,22.0,3.0,3.0,-1.0
+415,wisconsin,us,2020-02-15,1,0,0,United States,Adams County,,,55001.0,56.0,12.0,,,-1.0,
+416,wisconsin,us,2020-02-15,1,0,0,United States,Ashland County,,,55003.0,32.0,38.0,,,0.0,
+417,wisconsin,us,2020-02-15,1,0,0,United States,Barron County,,,55005.0,12.0,3.0,,,1.0,
+418,wisconsin,us,2020-02-15,1,0,0,United States,Bayfield County,,,55007.0,58.0,,,,,
+419,wisconsin,us,2020-02-15,1,0,0,United States,Brown County,,,55009.0,7.0,6.0,10.0,-2.0,0.0,0.0
+420,wisconsin,us,2020-02-15,1,0,0,United States,Buffalo County,,,55011.0,55.0,-12.0,,,,
+421,wisconsin,us,2020-02-15,1,0,0,United States,Burnett County,,,55013.0,4.0,3.0,,,4.0,
+422,wisconsin,us,2020-02-15,1,0,0,United States,Calumet County,,,55015.0,-21.0,5.0,,,-1.0,
+423,wisconsin,us,2020-02-15,1,0,0,United States,Chippewa County,,,55017.0,2.0,-1.0,,,-3.0,
+424,wisconsin,us,2020-02-15,1,0,0,United States,Clark County,,,55019.0,6.0,-3.0,,,-3.0,
+425,wisconsin,us,2020-02-15,1,0,0,United States,Columbia County,,,55021.0,12.0,7.0,,-7.0,8.0,
+426,wisconsin,us,2020-02-15,1,0,0,United States,Crawford County,,,55023.0,14.0,24.0,,,6.0,
+427,wisconsin,us,2020-02-15,1,0,0,United States,Dane County,,,55025.0,10.0,8.0,10.0,-5.0,7.0,-1.0
+428,wisconsin,us,2020-02-15,1,0,0,United States,Dodge County,,,55027.0,16.0,-1.0,0.0,,-1.0,-2.0
+429,wisconsin,us,2020-02-15,1,0,0,United States,Door County,,,55029.0,52.0,33.0,,,4.0,
+430,wisconsin,us,2020-02-15,1,0,0,United States,Douglas County,,,55031.0,10.0,3.0,,,10.0,
+431,wisconsin,us,2020-02-15,1,0,0,United States,Dunn County,,,55033.0,18.0,10.0,,-6.0,4.0,
+432,wisconsin,us,2020-02-15,1,0,0,United States,Eau Claire County,,,55035.0,11.0,3.0,2.0,11.0,2.0,-1.0
+433,wisconsin,us,2020-02-15,1,0,0,United States,Fond du Lac County,,,55039.0,9.0,7.0,0.0,,3.0,-2.0
+434,wisconsin,us,2020-02-15,1,0,0,United States,Forest County,,,55041.0,5.0,,,,,
+435,wisconsin,us,2020-02-15,1,0,0,United States,Grant County,,,55043.0,22.0,13.0,,,8.0,
+436,wisconsin,us,2020-02-15,1,0,0,United States,Green County,,,55045.0,2.0,7.0,,,-3.0,
+437,wisconsin,us,2020-02-15,1,0,0,United States,Green Lake County,,,55047.0,12.0,11.0,,,5.0,
+438,wisconsin,us,2020-02-15,1,0,0,United States,Iowa County,,,55049.0,5.0,0.0,,,8.0,
+439,wisconsin,us,2020-02-15,1,0,0,United States,Iron County,,,55051.0,3.0,,,,,
+440,wisconsin,us,2020-02-15,1,0,0,United States,Jackson County,,,55053.0,12.0,9.0,,16.0,1.0,
+441,wisconsin,us,2020-02-15,1,0,0,United States,Jefferson County,,,55055.0,15.0,9.0,-4.0,6.0,7.0,-2.0
+442,wisconsin,us,2020-02-15,1,0,0,United States,Juneau County,,,55057.0,12.0,7.0,,13.0,0.0,
+443,wisconsin,us,2020-02-15,1,0,0,United States,Kenosha County,,,55059.0,11.0,7.0,2.0,-25.0,2.0,-1.0
+444,wisconsin,us,2020-02-15,1,0,0,United States,Kewaunee County,,,55061.0,19.0,3.0,,,5.0,
+445,wisconsin,us,2020-02-15,1,0,0,United States,La Crosse County,,,55063.0,8.0,2.0,10.0,8.0,3.0,-1.0
+446,wisconsin,us,2020-02-15,1,0,0,United States,Lafayette County,,,55065.0,24.0,4.0,,,-4.0,
+447,wisconsin,us,2020-02-15,1,0,0,United States,Langlade County,,,55067.0,-1.0,14.0,,,2.0,
+448,wisconsin,us,2020-02-15,1,0,0,United States,Lincoln County,,,55069.0,11.0,-3.0,,,-6.0,
+449,wisconsin,us,2020-02-15,1,0,0,United States,Manitowoc County,,,55071.0,10.0,3.0,-18.0,,0.0,0.0
+450,wisconsin,us,2020-02-15,1,0,0,United States,Marathon County,,,55073.0,5.0,1.0,22.0,,-1.0,0.0
+451,wisconsin,us,2020-02-15,1,0,0,United States,Marinette County,,,55075.0,7.0,2.0,9.0,,-7.0,
+452,wisconsin,us,2020-02-15,1,0,0,United States,Marquette County,,,55077.0,16.0,3.0,,,0.0,
+453,wisconsin,us,2020-02-15,1,0,0,United States,Milwaukee County,,,55079.0,8.0,6.0,4.0,-2.0,1.0,0.0
+454,wisconsin,us,2020-02-15,1,0,0,United States,Monroe County,,,55081.0,4.0,6.0,,13.0,-1.0,
+455,wisconsin,us,2020-02-15,1,0,0,United States,Oconto County,,,55083.0,3.0,16.0,,,7.0,
+456,wisconsin,us,2020-02-15,1,0,0,United States,Oneida County,,,55085.0,11.0,0.0,13.0,,7.0,
+457,wisconsin,us,2020-02-15,1,0,0,United States,Outagamie County,,,55087.0,8.0,6.0,-8.0,4.0,3.0,-1.0
+458,wisconsin,us,2020-02-15,1,0,0,United States,Ozaukee County,,,55089.0,11.0,-2.0,14.0,,4.0,0.0
+459,wisconsin,us,2020-02-15,1,0,0,United States,Pierce County,,,55093.0,16.0,-2.0,,,3.0,
+460,wisconsin,us,2020-02-15,1,0,0,United States,Polk County,,,55095.0,7.0,-4.0,47.0,,-1.0,
+461,wisconsin,us,2020-02-15,1,0,0,United States,Portage County,,,55097.0,5.0,6.0,-12.0,,4.0,-1.0
+462,wisconsin,us,2020-02-15,1,0,0,United States,Price County,,,55099.0,-1.0,1.0,,,,
+463,wisconsin,us,2020-02-15,1,0,0,United States,Racine County,,,55101.0,7.0,4.0,7.0,8.0,0.0,-1.0
+464,wisconsin,us,2020-02-15,1,0,0,United States,Richland County,,,55103.0,18.0,,,,3.0,
+465,wisconsin,us,2020-02-15,1,0,0,United States,Rock County,,,55105.0,12.0,9.0,4.0,-1.0,2.0,-1.0
+466,wisconsin,us,2020-02-15,1,0,0,United States,Rusk County,,,55107.0,6.0,9.0,,,,
+467,wisconsin,us,2020-02-15,1,0,0,United States,Sauk County,,,55111.0,16.0,7.0,14.0,,3.0,-1.0
+468,wisconsin,us,2020-02-15,1,0,0,United States,Sawyer County,,,55113.0,14.0,14.0,,,5.0,
+469,wisconsin,us,2020-02-15,1,0,0,United States,Shawano County,,,55115.0,7.0,5.0,,,1.0,
+470,wisconsin,us,2020-02-15,1,0,0,United States,Sheboygan County,,,55117.0,4.0,16.0,8.0,-3.0,2.0,0.0
+471,wisconsin,us,2020-02-15,1,0,0,United States,St. Croix County,,,55109.0,5.0,5.0,,17.0,4.0,-2.0
+472,wisconsin,us,2020-02-15,1,0,0,United States,Taylor County,,,55119.0,5.0,2.0,,,2.0,
+473,wisconsin,us,2020-02-15,1,0,0,United States,Trempealeau County,,,55121.0,9.0,7.0,,,9.0,
+474,wisconsin,us,2020-02-15,1,0,0,United States,Vernon County,,,55123.0,14.0,8.0,,,10.0,
+475,wisconsin,us,2020-02-15,1,0,0,United States,Vilas County,,,55125.0,25.0,5.0,14.0,,1.0,
+476,wisconsin,us,2020-02-15,1,0,0,United States,Walworth County,,,55127.0,24.0,11.0,45.0,,6.0,-2.0
+477,wisconsin,us,2020-02-15,1,0,0,United States,Washburn County,,,55129.0,21.0,-1.0,,,,
+478,wisconsin,us,2020-02-15,1,0,0,United States,Washington County,,,55131.0,8.0,6.0,-5.0,,3.0,-1.0
+479,wisconsin,us,2020-02-15,1,0,0,United States,Waukesha County,,,55133.0,8.0,11.0,4.0,6.0,7.0,-1.0
+480,wisconsin,us,2020-02-15,1,0,0,United States,Waupaca County,,,55135.0,12.0,4.0,,,1.0,
+481,wisconsin,us,2020-02-15,1,0,0,United States,Waushara County,,,55137.0,19.0,7.0,,,3.0,
+482,wisconsin,us,2020-02-15,1,0,0,United States,Winnebago County,,,55139.0,13.0,7.0,19.0,,5.0,-1.0
+483,wisconsin,us,2020-02-15,1,0,0,United States,Wood County,,,55141.0,4.0,-1.0,,,1.0,0.0
