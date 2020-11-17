@@ -124,12 +124,7 @@ def parse_mobility_data(data_path):
  
     #2. remove county level statistics
 
-    for i, row in df.iterrows():
-       cur_county=df.at[i, 'sub_region_2']
-       if not cur_county:
-           df.drop(i)
-    
-    print(df)       
+    df = df[pd.notnull(df['sub_region_2'])]    
 
 
     #3  to lowercase
@@ -155,7 +150,7 @@ def download():
 
 if __name__ == '__main__':
     input_date = str(sys.argv[1])
-    print input_date
+    print(input_date)
     download()
     df1=parse_coronavirus_data('source-datasets/'+input_date+'.csv', input_date)
     df1.to_csv('left.csv', encoding='utf-8')

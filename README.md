@@ -33,3 +33,7 @@ We developed python code using Pandas dataframe to integrate JHU COVID-19 data a
 
 
 While our code could work well in the first several days, we find it broke down soon due to schema changes in the source datasets. We fixed the problem, but the code to fix that problem broke again after a few days. In this repository, we uploaded our initial data integration code, and the datasets that it can integrate. In addition, we also upload more versions of code, with each version handling a major schema evolution in the source datasets.
+
+## Estimate the engineering efforts when schema changes happen
+
+Plese refer to [here](covid-19-mobility-integration/initial-integration/README.md) for more details of this task.
