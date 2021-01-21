@@ -245,7 +245,7 @@ def download_file():
         logging.info('Data exists. No need to download again.')
     else:
         # Download data file
-        os.system('gdown https://drive.google.com/uc?id=1UOS5MgOYUwZ2dL_MEljmP-KBJI-lv1le')
+        os.system('gdown https://drive.google.com/uc?id=1fDU8DhJBINsyDaG5SRcp-5gLRZ3Z_Iwa')
         os.system('unzip -q covid-19-data.zip')
         os.system('rm covid-19-data.zip')
 
@@ -257,29 +257,29 @@ def verify_data():
         logging.info('Data files verification complete.')
     else:
         erro_msg = 'Data files are missing. Please goto '\
-        'https://drive.google.com/file/d/1UOS5MgOYUwZ2dL_MEljmP-KBJI-lv1le/view?usp=sharing ' \
+        'https://drive.google.com/uc?id=1fDU8DhJBINsyDaG5SRcp-5gLRZ3Z_Iwa ' \
         'and manually download the covid-19-data.zip file and extract the content to ' \
         'the current folder.'
-        raise logging.ERROR(erro_msg)
+        raise FileNotFoundError(erro_msg)
 
 def library_check():
     try:
         import pandas
     except:
-        raise logging.ERROR('pandas missing, please use pip to install it.')
+        raise logging.error('pandas missing, please use pip to install it.')
 
     try:
         import pycountry
     except:
-        raise logging.ERROR('pycountry missing, please use pip to install it.')
+        raise logging.error('pycountry missing, please use pip to install it.')
 
     try:
         import numpy
     except:
-        raise logging.ERROR('numpy missing, please use pip to install it.')
+        raise logging.error('numpy missing, please use pip to install it.')
     
     try:
         import gdown
     except:
-        raise logging.ERROR('gdown missing, please use pip to install it.')
+        raise logging.error('gdown missing, please use pip to install it.')
 

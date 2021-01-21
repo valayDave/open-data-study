@@ -1,5 +1,27 @@
-import unittest
 import logging
+# Library check
+try:
+    import pandas
+except ImportError:
+    raise ImportError('pandas missing, please use pip to install it.')
+
+try:
+    import pycountry
+except ImportError:
+    raise ImportError('pycountry missing, please use pip to install it.')
+
+try:
+    import numpy
+except ImportError:
+    raise ImportError('numpy missing, please use pip to install it.')
+
+try:
+    import gdown
+except ImportError:
+    raise ImportError('gdown missing, please use pip to install it.')
+
+
+import unittest
 import sys
 import os
 import pandas as pd
@@ -10,8 +32,6 @@ class TestIntegration(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        # Check required libraries are installed 
-        library_check()
         # Download data file
         download_file()
         # Verify the needed data are exist.
