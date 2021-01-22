@@ -1,7 +1,14 @@
 # open-data-study
 We study the schema evolutions, schema diversities of open data, as well as the code to handle these changes.
 
-## Schema Evolution in Open Data
+## Experiments
+
+### Estimate the engineering efforts when schema changes happen
+
+Plese refer to [here](covid-19-mobility-integration) for more details of this task.
+
+
+<!-- ## Schema Evolution in Open Data
 
 ### Example: Integration of JHU COVID-19 data and Google Global Mobility data
 
@@ -36,4 +43,4 @@ While our code could work well in the first several days, we find it broke down 
 
 ## Estimate the engineering efforts when schema changes happen
 
-Plese refer to [here](covid-19-mobility-integration/initial-integration/README.md) for more details of this task.
+Plese refer to [here](covid-19-mobility-integration/initial-integration/README.md) for more details of this task. -->

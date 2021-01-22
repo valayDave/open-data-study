@@ -1,89 +1,240 @@
 # Estimate the engineering efforts when schema changes happen
 
-We perform several inner joins of the [JHU COVID-19 Daily Report Data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) (left table) and the [Google Mobility Data](https://www.google.com/covid19/mobility/) (right table) to study the schema changes happened in JHU's datasets.
+We conduct this experiment to study what are the engineering efforts when scheme  changes happened in data integration tasks.
 
 ---
 
 <!-- TOC -->
 
 - [Estimate the engineering efforts when schema changes happen](#estimate-the-engineering-efforts-when-schema-changes-happen)
+  - [Background](#background)
   - [Data Integration Tasks](#data-integration-tasks)
-  - [Dataset schemas](#dataset-schemas)
-  - [Library dependency](#library-dependency)
-  - [Common Questions & Answers](#common-questions--answers)
-    - [How to use the python code](#how-to-use-the-python-code)
-    - [How to validate your output is correct](#how-to-validate-your-output-is-correct)
-    - [How to fix the integration codes if schema changes break the existing code](#how-to-fix-the-integration-codes-if-schema-changes-break-the-existing-code)
+      - [Task 1](#task-1)
+      - [Task 2](#task-2)
+      - [Task 3](#task-3)
+      - [Task 4](#task-4)
+      - [Task 5](#task-5)
+      - [Task 6](#task-6)
+      - [Task 7](#task-7)
+      - [Task 8](#task-8)
+  - [How to run the data integration tasks](#how-to-run-the-data-integration-tasks)
+    - [Required library](#required-library)
+    - [Run python code](#run-python-code)
+    - [How to validate your result is correct](#how-to-validate-your-result-is-correct)
+    - [How to fix the codes if schema changes break the existing code](#how-to-fix-the-codes-if-schema-changes-break-the-existing-code)
+  - [How to conduct this experiment](#how-to-conduct-this-experiment)
+  - [More info](#more-info)
+    - [Dataset schemas](#dataset-schemas)
 
 <!-- /TOC -->
 
 ---
+## Background
 
+Suppose you are a data analysis who tries to analyze the impacts of COVID-19 on mobility or how the mobility can increase or decrease the spread of COVID-19.  You decide to first join the following two tables: [JHU COVID-19 Daily Report Data](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) (**left table**) and the [Google Mobility Data](https://www.google.com/covid19/mobility/) (**right table**).
+
+---
 ## Data Integration Tasks
 
-We only target the schema changes that happened in the JHU daily report.
+We think about 8 scenarios that data analysis may face when performing the joining to study the human efforts when schema changes happen. There is no schema changes happened on the **right table**.
+
+In some tasks, you are required to group the records. The aggregation logics are:
+- Confirmed: `sum`
+- Deaths: `sum`
+- Recovered: `sum`
+- Active: `sum`
+- Latitude: `average`
+- Longitude: `average`
+- Incidence Rate: `average`
+- Case Fatality Ratio: `average`
+
+#### Task 1
+Analyze the data reported at the **country** level. In the left table, besides the `country_region_code` and `date` columns, we also select the `Confirmed`, `Deaths`, and `Recovered` columns. These three columns are also called **basic columns**.
+
+#### Task 2
+Analyze the data reported at the **country** level. In the left table, we will select all available columns provided in the source file. 
+
+#### Task 3
+Analyze the data reported at the **state** level. *The selection of columns for the left table is the same as **Task 1***.
+
+#### Task 4
+Analyze the data reported at the **state** level. *The selection of columns for the left table is the same as **Task 2***.
+
+#### Task 5
+Analyze the data reported at the **county** level. *The selection of columns for the left table is the same as **Task 1***.
+
+#### Task 6
+Analyze the data reported at the **county** level. *The selection of columns for the left table is the same as **Task 2***.
+
+#### Task 7
+The existing data source is no longer available. So, we decide to switch our **left table** data source to [NYTimes COVID-19](https://github.com/nytimes/covid-19-data) data repository. We use the all columns provided by the NYTimes and perform a inner join at the county level.
+
+*Note: for this task, we only perform the join on the data of 06-30-2020.*
 
 
-There are 8 existing data integration tasks, which are defined in the `integration_test.py`. Each function in the python file represents a data integration task. The original codes work for the left table generated from **02-15-2020** to **02-29-2020**.
+#### Task 8
+The existing data source is no longer available. So, we decide to switch our **left table** data source to [JHU time_series_covid19_confirmed_US](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv). This data file only contains the number of **confirmed cases** in the US. We **need to**:
+- rename the column `6/30/20` to `Confirmed`
+- add another column `date`, whose value is `2020-06-30`
+- select the `country_region_code`, `sub_region_1`, `sub_region_2`, `Confirmed` and `date` of the left table, then perform  join. 
 
-We perform inner join for the left and right tables by aggregate COVID-19 case data at county/state/country level. For each case, we divide it into two sub-tasks: 
-1. Inner join with basic columns: confirmed, deaths, recovered
-2. Inner join with extra columns: basic columns + longitude, latitude, active, etc.
+*Note: for this task, we only perform the join on the data of 06-30-2020.*
 
-We have 6 in total for the above tasks. The rest of the two tasks are:
-1. Replace left table with NYTimes COVID-19 data then perform an inner join with right table at county level.
-2. Replace left table with JHU TimeSeries data then perform an inner join with right table at county level.
+---
 
-The details of each integration task is described as below:
+## How to run the data integration tasks
 
-- Task 1: aggregate data at country level then join (Basic columns).
+### Required library 
 
-Example:
+It is better to create a **virtual environment** to install the required library without mess up your environment. like: `conda create -n myenv python=3.6`
 
-| country_region_code | date      | Confirmed | Deaths | Recovered | Unnamed: 0 | country_region       | ... | grocery_and_pharmacy_percent_change_from_baseline |
-|---------------------|-----------|-----------|--------|-----------|------------|----------------------|-----|---------------------------------------------------|
-| ae                  | 2020/2/15 | 8         | 0      | 3         | 0          | United Arab Emirates | ... | 4                                                 |
-| au                  | 2020/2/15 | 15        | 0      | 8         | 126969     | Australia            | ... | 3                                                 |
-| be                  | 2020/2/15 | 1         | 0      | 0         | 194150     | Belgium              | ... | 2                                                 |
-| ca                  | 2020/2/15 | 7         | 0      | 1         | 678009     | Canada               | ... | 2                                                 |
+Run `pip install -r requirements.txt ` in the current folder to install the required library.
 
-- Task 2: aggregate data at country level then join. (Basic + Extra columns).
-
-Example:
-
-| country_region_code | date     | Confirmed | Deaths | Recovered | Latitude | Longitude | Unnamed: 0 | country_region       | ... | retail_and_recreation_percent_change_from_baseline |
-|---------------------|----------|-----------|--------|-----------|----------|-----------|------------|----------------------|-----|----------------------------------------------------|
-| ae                  | 2020/3/1 | 21        | 0      | 5         | 24       | 54        | 15         | United Arab Emirates | ... | 3                                                  |
-| af                  | 2020/3/1 | 1         | 0      | 0         | 33       | 65        | 2000       | Afghanistan          | ... | 3                                                  |
-| at                  | 2020/3/1 | 14        | 0      | 0         | 47.5162  | 14.5501   | 103592     | Austria              | ... | 0                                                  |
-| au                  | 2020/3/1 | 27        | 1      | 11        | -21.8557 | 140.6119  | 126984     | Australia            | ... | 4                                                  |
-| be                  | 2020/3/1 | 2         | 0      | 1         | 50.8333  | 4         | 194165     | Belgium              | ... | 0                                                  |
-
-- Task 3: aggregate data at state level then join. (Basic columns).
-- Task 4: aggregate data at state level then join. (Basic + Extra columns).
-- Task 5: aggregate data at county level then join. (Basic columns).
-- Task 6: aggregate data at county level then join. (Basic + Extra columns).
-- Task 7: replace left table with NYTime data then join with right table at county level on the date of 06-30-2020.
-- Task 8: replace left table with JHU TimeSeries data then join with right table at county level on the date of 06-30-2020.
+### Run python code
 
 
-The original data integration codes work for the first 6 tasks with date from *02-15-2020* to *03-01-2020*. For the last two tasks, the date is hardcoded as *06-30-2020*.
+`integration_tasks.py` is the **main file** you need to run.
+`utils.py` defines multiple functions used by *integration_tasks.py*.
 
-**Your tasks** are to make sure all 8 tasks get the correct result and timing the time in fixing the code for each data integration task.
+You need to pass a **date** as the argument to the main file, which in **%m-%d-%Y** format.
 
-You only need to run the data integration code with a given date which is later than *03-01-2020*, then provide a fixed code.
+For example:
 
-Here are some instructions on how to run the code and how to validate your result:
+`python integration_tasks.py 03-01-2020`
 
-[How to use the python code](#how-to-use-the-python-code)
+*Note*
+- *if you are using **Windows**, you need to run the code under a command window like **Git Bash**, which supports `unzip` and `rm` commands.*
+- *you may see some warning message when running the code, like follows. You can safely ignore these messages.*
 
-[How to validate your output is correct](#how-to-validate-your-output-is-correct)
+```
+WARNING:root:burma was not found to a matched area
+WARNING:root:congo (brazzaville) was not found to a matched area
+WARNING:root:congo (kinshasa) was not found to a matched area
+```
 
-[How to fix the integration codes if schema changes break the existing code](#how-to-fix-the-integration-codes-if-schema-changes-break-the-existing-code)
+### How to validate your result is correct
 
+We pre-generated ground truth data for each case which covers the date range from **02-15-2020** to **06-30-2020**. The **main file** is constructed as multiple *unit tests*. Each test is corresponding to one integration test. Your result will be automatically verified by code. After you run the main file, you will see some results like the following:
 
-You can organize your solution as the following format:
+```
+WARNING:root:burma was not found to a matched area
+WARNING:root:congo (brazzaville) was not found to a matched area
+WARNING:root:congo (kinshasa) was not found to a matched area
+WARNING:root:diamond princess was not found to a matched area
+WARNING:root:laos was not found to a matched area
+WARNING:root:ms zaandam was not found to a matched area
+WARNING:root:west bank and gaza was not found to a matched area
+test_country_level_with_basic_columns (__main__.TestIntegration) ... ok
+test_country_level_with_extra_columns (__main__.TestIntegration) ... ok
+test_county_level_with_basic_columns (__main__.TestIntegration) ... ok
+test_county_level_with_extra_columns (__main__.TestIntegration) ... ok
+test_left_table_replaced_by_jhu_timeseries (__main__.TestIntegration) ... ok
+test_left_table_replaced_by_nytime (__main__.TestIntegration) ... ok
+test_state_level_with_basic_columns (__main__.TestIntegration) ... ok
+test_state_level_with_extra_columns (__main__.TestIntegration) ... ok
 
+----------------------------------------------------------------------
+Ran 8 tests in 7.831s
+
+OK
+```
+```
+WARNING:root:burma was not found to a matched area
+WARNING:root:congo (brazzaville) was not found to a matched area
+WARNING:root:congo (kinshasa) was not found to a matched area
+WARNING:root:diamond princess was not found to a matched area
+WARNING:root:laos was not found to a matched area
+WARNING:root:ms zaandam was not found to a matched area
+WARNING:root:west bank and gaza was not found to a matched area
+test_country_level_with_basic_columns (__main__.TestIntegration) ... ok
+test_country_level_with_extra_columns (__main__.TestIntegration) ... FAIL
+test_county_level_with_basic_columns (__main__.TestIntegration) ... ok
+test_county_level_with_extra_columns (__main__.TestIntegration) ... FAIL
+test_left_table_replaced_by_jhu_timeseries (__main__.TestIntegration) ... ok
+test_left_table_replaced_by_nytime (__main__.TestIntegration) ... ok
+test_state_level_with_basic_columns (__main__.TestIntegration) ... ok
+test_state_level_with_extra_columns (__main__.TestIntegration) ... FAIL
+
+======================================================================
+FAIL: test_country_level_with_extra_columns (__main__.TestIntegration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "integration_tasks_fixed_0528.py", line 98, in test_country_level_with_extra_columns
+    pd.testing.assert_frame_equal(joined, joined_exp, check_dtype=False)
+  File "C:\Miniconda3\lib\site-packages\pandas\_testing.py", line 1561, in assert_frame_equal
+    raise_assert_detail(
+  File "C:\Miniconda3\lib\site-packages\pandas\_testing.py", line 1036, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame are different
+
+DataFrame shape mismatch
+[left]:  (125, 20)
+[right]: (125, 22)
+
+======================================================================
+FAIL: test_county_level_with_extra_columns (__main__.TestIntegration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "integration_tasks_fixed_0528.py", line 193, in test_county_level_with_extra_columns
+    pd.testing.assert_frame_equal(joined, joined_exp, check_dtype=False)
+  File "C:\Miniconda3\lib\site-packages\pandas\_testing.py", line 1561, in assert_frame_equal
+    raise_assert_detail(
+  File "C:\Miniconda3\lib\site-packages\pandas\_testing.py", line 1036, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame are different
+
+DataFrame shape mismatch
+[left]:  (2594, 20)
+[right]: (2594, 22)
+
+======================================================================
+FAIL: test_state_level_with_extra_columns (__main__.TestIntegration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "integration_tasks_fixed_0528.py", line 147, in test_state_level_with_extra_columns
+    pd.testing.assert_frame_equal(joined, joined_exp, check_dtype=False)
+  File "C:\Miniconda3\lib\site-packages\pandas\_testing.py", line 1561, in assert_frame_equal
+    raise_assert_detail(
+  File "C:\Miniconda3\lib\site-packages\pandas\_testing.py", line 1036, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame are different
+
+DataFrame shape mismatch
+[left]:  (230, 20)
+[right]: (230, 22)
+
+----------------------------------------------------------------------
+Ran 8 tests in 7.783s
+
+FAILED (failures=3)
+```
+
+### How to fix the codes if schema changes break the existing code
+
+We have added multiple **flags**, ```# FIXME if broken```, into the main file to indicate the section you may need to modify if a test fails. 
+
+For example:
+```python
+def test_country_level_with_basic_columns(self):
+        # Aggregate data into country level
+        # FIXME if broken   <------- the section may need modification
+        left = self.df1.groupby(['country_region_code', 'date']).agg( # <------- the section may need modification
+            {'Confirmed':'sum', 'Deaths':'sum', 'Recovered':'sum'})  # <------- the section may need modification
+
+        # Select the data that is reported at the country level
+        index = ~self.df2[['sub_region_1', 'sub_region_2', 'metro_area']].notna().any(axis=1)
+        right = self.df2[index]
+```
+
+Also, you may need to modify the `utils.py` to pass the integration tests. We do not add any flag to indicate the part needs to be modified. It is your job to locate the place.
+
+## How to conduct this experiment
+
+After you have the understanding of the integration tasks and how to run the code, you can first run the code from the date within `02/15/2020 - 02/29/2020`, to make sure your code passes **6 out of 8** tests. This is the default setting. 
+
+The requirements to submit your result:
+1. you need to submit your codes that can pass all tests with a given **date** between `03/01/2020` and `06/30/2020`.
+2. start a timer to measure the time you spend passing tests separately. You can use the following template to submit your result.
 ```
 Time to fix data integration tasks:
     Task 1:
@@ -94,11 +245,10 @@ Time to fix data integration tasks:
     Task 6:
     Task 7:
     Task 8:
-```
-and attach your fixed `py` files.
+``` 
 
-
-## Dataset schemas
+## More info
+### Dataset schemas
 
 **Left table** is the daily COVID-19 case reported by JHU. The explanation of each column is [here](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/README.md).
 
@@ -123,42 +273,3 @@ Example of Google Mobility Report:
 | GB                  | United Kingdom | Kent         | Borough of Swale   |            |                 |                  | ####### | -64                                                | -24                                               | 50                                 | -30                                           | -26                                     | 9                                        |
 | GB                  | United Kingdom | Kent         | Borough of Swale   |            |                 |                  | ####### | -47                                                | -14                                               | 78                                 | -42                                           | -51                                     | 20                                       |
 | GB                  | United Kingdom | Kent         | Borough of Swale   |            |                 |                  | ####### | -49                                                | -11                                               | 107                                | -44                                           | -51                                     | 20                                       |
-
-
-## Library dependency
-
-The codes rely on the following python library. You can use `pip install library_name` or `pip install -r requirements.txt` to install these libraries. 
-```
-pandas
-pycountry
-numpy
-gdown
-```
-
----
-
-## Common Questions & Answers
-
-### How to use the python code
-
-Execute `python integration_test.py date` in your command window with an **argument**: *date*, which in **%m-%d-%Y**.
-
-Example:
-
-`python integration_test.py 03-01-2020`
-
-*Note*: you may see some warning message when running the code, like follows. You can safely ignore these messages.
-
-```
-WARNING:root:burma was not found to a matched area
-WARNING:root:congo (brazzaville) was not found to a matched area
-WARNING:root:congo (kinshasa) was not found to a matched area
-```
-
-### How to validate your output is correct
-
-We pre-generated ground truth data for each case which cover the date range from **02-15-2020** to **06-30-2020**. Each integration task is coded as a unit test function, we use `pandas.testing.assert_frame_equal` to check whether your joined table is equal to the ground truth data. The result of *Pass/Fails* will be printed in the command window.
-
-### How to fix the integration codes if schema changes break the existing code
-
-You are supposed to modify the codes in `integration_test.py` and `utils.py` to pass the unit tests. Ideally, there is no need to modify the codes related to the right table.

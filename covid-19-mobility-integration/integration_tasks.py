@@ -195,14 +195,14 @@ class TestIntegration(unittest.TestCase):
     # on 06-30-2020.
     def test_left_table_replaced_by_nytime(self):
         df1 = pd.read_csv('source-datasets/us-counties-nyt.csv', sep=',', encoding='utf-8', low_memory=False)
-        # FIXME 
+        # FIXME if broken
         # left =
 
         # Select the data that is reported at the county level
         index=  self.df2[['sub_region_2']].notna().any(axis=1)
         right = self.df2[index]
 
-        # FIXME
+        # FIXME if broken
         joined = right
 
         # Load the expected result
@@ -219,14 +219,14 @@ class TestIntegration(unittest.TestCase):
     def test_left_table_replaced_by_jhu_timeseries(self):
         df1 = pd.read_csv('source-datasets/time_series_covid19_confirmed_US.csv',
                           sep=',', encoding='utf-8', low_memory=False)
-        # FIXME 
+        # FIXME if broken 
         # left =
         
         # Select the data that is reported at the county level
         index=  self.df2[['sub_region_2']].notna().any(axis=1)
         right = self.df2[index]
 
-        # FIXME
+        # FIXME if broken
         joined = right
 
         # Load the expected result
