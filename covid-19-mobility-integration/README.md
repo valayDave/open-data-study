@@ -22,9 +22,20 @@ We conduct this experiment to study what are the engineering efforts when scheme
     - [Run python code](#run-python-code)
     - [How to validate your result is correct](#how-to-validate-your-result-is-correct)
     - [How to fix the codes if schema changes break the existing code](#how-to-fix-the-codes-if-schema-changes-break-the-existing-code)
-  - [How to conduct this experiment](#how-to-conduct-this-experiment)
+  - [**How to conduct this experiment**](#how-to-conduct-this-experiment)
   - [More info](#more-info)
     - [Dataset schemas](#dataset-schemas)
+      - [Daily report](#daily-report)
+      - [Google mobility report](#google-mobility-report)
+    - [Samples of integration results](#samples-of-integration-results)
+      - [Task 1](#task-1-1)
+      - [Task 2](#task-2-1)
+      - [Task 3](#task-3-1)
+      - [Task 4](#task-4-1)
+      - [Task 5](#task-5-1)
+      - [Task 6](#task-6-1)
+      - [Task 7](#task-7-1)
+      - [Task 8](#task-8-1)
 
 <!-- /TOC -->
 
@@ -67,13 +78,13 @@ Analyze the data reported at the **county** level. *The selection of columns for
 Analyze the data reported at the **county** level. *The selection of columns for the left table is the same as **Task 2***.
 
 #### Task 7
-The existing data source is no longer available. So, we decide to switch our **left table** data source to [NYTimes COVID-19](https://github.com/nytimes/covid-19-data) data repository. We use the all columns provided by the NYTimes and perform a inner join at the county level.
+The existing data source of **left table** is no longer available. So, we decide to switch our **left table** data source to [NYTimes COVID-19](https://github.com/nytimes/covid-19-data) data repository. We use all columns provided by the NYTimes and perform a inner join at the county level.
 
 *Note: for this task, we only perform the join on the data of 06-30-2020.*
 
 
 #### Task 8
-The existing data source is no longer available. So, we decide to switch our **left table** data source to [JHU time_series_covid19_confirmed_US](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv). This data file only contains the number of **confirmed cases** in the US. We **need to**:
+The existing data source of **left table** is no longer available. So, we decide to switch our **left table** data source to [JHU time_series_covid19_confirmed_US](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv). This data file only contains the number of **confirmed cases** in the US. We **need to**:
 - rename the column `6/30/20` to `Confirmed`
 - add another column `date`, whose value is `2020-06-30`
 - select the `country_region_code`, `sub_region_1`, `sub_region_2`, `Confirmed` and `date` of the left table, then perform  join. 
@@ -86,7 +97,9 @@ The existing data source is no longer available. So, we decide to switch our **l
 
 ### Required library 
 
-It is better to create a **virtual environment** to install the required library without mess up your environment. like: `conda create -n myenv python=3.6`
+It is better to create a **virtual environment** to install the required library without mess up your environment. 
+
+like: `conda create -n myenv python=3.6`
 
 Run `pip install -r requirements.txt ` in the current folder to install the required library.
 
@@ -94,6 +107,7 @@ Run `pip install -r requirements.txt ` in the current folder to install the requ
 
 
 `integration_tasks.py` is the **main file** you need to run.
+
 `utils.py` defines multiple functions used by *integration_tasks.py*.
 
 You need to pass a **date** as the argument to the main file, which in **%m-%d-%Y** format.
@@ -114,7 +128,7 @@ WARNING:root:congo (kinshasa) was not found to a matched area
 
 ### How to validate your result is correct
 
-We pre-generated ground truth data for each case which covers the date range from **02-15-2020** to **06-30-2020**. The **main file** is constructed as multiple *unit tests*. Each test is corresponding to one integration test. Your result will be automatically verified by code. After you run the main file, you will see some results like the following:
+We pre-generated ground truth data for each case which covers the date range from **02-15-2020** to **06-30-2020**. The **main file** is constructed as multiple *unit tests*. Each test is corresponding to one integration task. Your result will be automatically verified by code. After you run the main file, you will see some results like the following:
 
 ```
 WARNING:root:burma was not found to a matched area
@@ -228,31 +242,24 @@ def test_country_level_with_basic_columns(self):
 
 Also, you may need to modify the `utils.py` to pass the integration tests. We do not add any flag to indicate the part needs to be modified. It is your job to locate the place.
 
-## How to conduct this experiment
+## **How to conduct this experiment**
 
-After you have the understanding of the integration tasks and how to run the code, you can first run the code from the date within `02/15/2020 - 02/29/2020`, to make sure your code passes **6 out of 8** tests. This is the default setting. 
+After you have an understanding of the integration tasks and how to run the code, you can first run the code from the date within `02/15/2020 - 02/29/2020`, to make sure your code passes **6 out of 8** tests. This is the default setting. 
 
 The requirements to submit your result:
 1. you need to submit your codes that can pass all tests with a given **date** between `03/01/2020` and `06/30/2020`.
 2. start a timer to measure the time you spend passing tests separately. You can use the following template to submit your result.
-```
-Time to fix data integration tasks:
-    Task 1:
-    Task 2:
-    Task 3:
-    Task 4:
-    Task 5:
-    Task 6:
-    Task 7:
-    Task 8:
-``` 
+3. please measure the time in **minutes**, and fill the result to the file `experiment_results.txt`.
+
+Please submit your `fixed code files` and `experiment_results.txt` to us.  Thanks.
 
 ## More info
 ### Dataset schemas
 
+#### Daily report
 **Left table** is the daily COVID-19 case reported by JHU. The explanation of each column is [here](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/README.md).
 
-Example of daily report:
+Samples of the left table:
 
 | FIPS  | Admin2    | Province_State | Country_Region | Last_Update         | Lat                | Long_               | Confirmed | Deaths | Recovered | Active |
 |-------|-----------|----------------|----------------|---------------------|--------------------|---------------------|-----------|--------|-----------|--------|
@@ -262,9 +269,10 @@ Example of daily report:
 | 16001 | Ada       | Idaho          | US             | 2020-05-01 02:32:28 | 43.4526575         | -116.24155159999998 | 671       | 16     | 0         | 655    |
 | 19001 | Adair     | Iowa           | US             | 2020-05-01 02:32:28 | 41.33075609        | -94.47105874        | 1         | 0      | 0         | 1      |
 
+#### Google mobility report
 **Right table** is the Google Mobility Report to describe how visits and length of stay at different places change compared to a baseline. More details can be seen [here](https://www.google.com/covid19/mobility/data_documentation.html?hl=en).
 
-Example of Google Mobility Report:
+Samples of Google Mobility Report:
 
 | country_region_code | country_region | sub_region_1 | sub_region_2       | metro_area | iso_3166_2_code | census_fips_code | date    | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
 |---------------------|----------------|--------------|--------------------|------------|-----------------|------------------|---------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
@@ -273,3 +281,56 @@ Example of Google Mobility Report:
 | GB                  | United Kingdom | Kent         | Borough of Swale   |            |                 |                  | ####### | -64                                                | -24                                               | 50                                 | -30                                           | -26                                     | 9                                        |
 | GB                  | United Kingdom | Kent         | Borough of Swale   |            |                 |                  | ####### | -47                                                | -14                                               | 78                                 | -42                                           | -51                                     | 20                                       |
 | GB                  | United Kingdom | Kent         | Borough of Swale   |            |                 |                  | ####### | -49                                                | -11                                               | 107                                | -44                                           | -51                                     | 20                                       |
+
+### Samples of integration results
+
+The following are the samples of expected results for each integration tasks
+
+#### Task 1
+| country_region_code | date      | Confirmed | Deaths | Recovered | country_region       | sub_region_1 | sub_region_2 | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|---------------------|-----------|-----------|--------|-----------|----------------------|--------------|--------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| ae                  | 2/15/2020 | 8         | 0      | 3         | United Arab Emirates |              |              |            |                 |                  | 0                                                  | 4                                                 | 5                                  | 0                                             | 2                                       | 1                                        |
+| au                  | 2/15/2020 | 15        | 0      | 8         | Australia            |              |              |            |                 |                  | 4                                                  | 3                                                 | -2                                 | 3                                             | 3                                       | 0                                        |
+| be                  | 2/15/2020 | 1         | 0      | 0         | Belgium              |              |              |            |                 |                  | 3                                                  | 2                                                 | 29                                 | 9                                             | 1                                       | -1                                       |
+#### Task 2
+| country_region_code | date      | Confirmed | Deaths | Recovered | country_region       | sub_region_1 | sub_region_2 | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|---------------------|-----------|-----------|--------|-----------|----------------------|--------------|--------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| ae                  | 2/15/2020 | 8         | 0      | 3         | United Arab Emirates |              |              |            |                 |                  | 0                                                  | 4                                                 | 5                                  | 0                                             | 2                                       | 1                                        |
+| au                  | 2/15/2020 | 15        | 0      | 8         | Australia            |              |              |            |                 |                  | 4                                                  | 3                                                 | -2                                 | 3                                             | 3                                       | 0                                        |
+| be                  | 2/15/2020 | 1         | 0      | 0         | Belgium              |              |              |            |                 |                  | 3                                                  | 2                                                 | 29                                 | 9                                             | 1                                       | -1                                       |
+#### Task 3
+| country_region_code | sub_region_1    | date      | Confirmed | Deaths | Recovered | country_region | sub_region_2 | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|---------------------|-----------------|-----------|-----------|--------|-----------|----------------|--------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| au                  | new south wales | 2/15/2020 | 4         | 0      | 4         | Australia      |              |            | AU-NSW          |                  | 4                                                  | 5                                                 | 1                                  | 10                                            | 3                                       | -1                                       |
+| au                  | queensland      | 2/15/2020 | 5         | 0      | 0         | Australia      |              |            | AU-QLD          |                  | 3                                                  | 4                                                 | -8                                 | -2                                            | 1                                       | 1                                        |
+| au                  | south australia | 2/15/2020 | 2         | 0      | 0         | Australia      |              |            | AU-SA           |                  | 6                                                  | 2                                                 | 5                                  | 4                                             | 2                                       | 0                                        |
+#### Task 4
+| country_region_code | sub_region_1    | date      | Confirmed | Deaths | Recovered | country_region | sub_region_2 | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|---------------------|-----------------|-----------|-----------|--------|-----------|----------------|--------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| au                  | new south wales | 2/15/2020 | 4         | 0      | 4         | Australia      |              |            | AU-NSW          |                  | 4                                                  | 5                                                 | 1                                  | 10                                            | 3                                       | -1                                       |
+| au                  | queensland      | 2/15/2020 | 5         | 0      | 0         | Australia      |              |            | AU-QLD          |                  | 3                                                  | 4                                                 | -8                                 | -2                                            | 1                                       | 1                                        |
+| au                  | south australia | 2/15/2020 | 2         | 0      | 0         | Australia      |              |            | AU-SA           |                  | 6                                                  | 2                                                 | 5                                  | 4                                             | 2                                       | 0                                        |
+#### Task 5
+| country_region_code | sub_region_1 | sub_region_2 | date      | Confirmed | Deaths | Recovered | country_region | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|---------------------|--------------|--------------|-----------|-----------|--------|-----------|----------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| us                  | california   | los angeles  | 2/15/2020 | 1         | 0      | 0         | United States  |            |                 | 6037             | 1                                                  | 0                                                 | 13                                 | -1                                            | -1                                      | 0                                        |
+| us                  | california   | orange       | 2/15/2020 | 1         | 0      | 0         | United States  |            |                 | 6059             | 0                                                  | 0                                                 | 9                                  | 0                                             | 0                                       | 0                                        |
+| us                  | california   | san benito   | 2/15/2020 | 2         | 0      | 0         | United States  |            |                 | 6069             | 1                                                  | 0                                                 | 27                                 |                                               | -4                                      | -1                                       |
+#### Task 6
+| country_region_code | sub_region_1 | sub_region_2 | date      | Confirmed | Deaths | Recovered | country_region | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|---------------------|--------------|--------------|-----------|-----------|--------|-----------|----------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| us                  | california   | los angeles  | 2/15/2020 | 1         | 0      | 0         | United States  |            |                 | 6037             | 1                                                  | 0                                                 | 13                                 | -1                                            | -1                                      | 0                                        |
+| us                  | california   | orange       | 2/15/2020 | 1         | 0      | 0         | United States  |            |                 | 6059             | 0                                                  | 0                                                 | 9                                  | 0                                             | 0                                       | 0                                        |
+| us                  | california   | san benito   | 2/15/2020 | 2         | 0      | 0         | United States  |            |                 | 6069             | 1                                                  | 0                                                 | 27                                 |                                               | -4                                      | -1                                       |
+#### Task 7
+| date      | sub_region_2 | sub_region_1 | fips | cases | deaths | country_region_code | country_region | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|-----------|--------------|--------------|------|-------|--------|---------------------|----------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| 6/30/2020 | autauga      | alabama      | 1001 | 537   | 12     | us                  | United States  |            |                 | 1001             | 5                                                  | 5                                                 |                                    |                                               | -30                                     | 9                                        |
+| 6/30/2020 | baldwin      | alabama      | 1003 | 680   | 10     | us                  | United States  |            |                 | 1003             | 15                                                 | 22                                                | 92                                 | 19                                            | -24                                     | 5                                        |
+| 6/30/2020 | barbour      | alabama      | 1005 | 325   | 1      | us                  | United States  |            |                 | 1005             | 8                                                  |                                                   |                                    |                                               | -20                                     |
+#### Task 8
+| country_region_code | sub_region_1 | sub_region_2 | Confirmed | date      | country_region | metro_area | iso_3166_2_code | census_fips_code | retail_and_recreation_percent_change_from_baseline | grocery_and_pharmacy_percent_change_from_baseline | parks_percent_change_from_baseline | transit_stations_percent_change_from_baseline | workplaces_percent_change_from_baseline | residential_percent_change_from_baseline |
+|---------------------|--------------|--------------|-----------|-----------|----------------|------------|-----------------|------------------|----------------------------------------------------|---------------------------------------------------|------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------|
+| us                  | alabama      | autauga      | 530       | 6/30/2020 | United States  |            |                 | 1001             | 5                                                  | 5                                                 |                                    |                                               | -30                                     | 9                                        |
+| us                  | alabama      | baldwin      | 663       | 6/30/2020 | United States  |            |                 | 1003             | 15                                                 | 22                                                | 92                                 | 19                                            | -24                                     | 5                                        |
+| us                  | alabama      | barbour      | 322       | 6/30/2020 | United States  |            |                 | 1005             | 8                                                  |                                                   |                                    |                                               | -20                                     |
