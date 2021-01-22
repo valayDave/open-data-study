@@ -1,6 +1,5 @@
 from logging import error
 import pandas as pd
-import sys
 import datetime
 import os
 import numpy as np
@@ -92,7 +91,7 @@ def parse_coronavirus_data(data_path, input_date):
     }
     df.rename(rename_dict, axis='columns', inplace=True)
 
-    # add sub_region_2 columns it not exist
+    # add sub_region_2 columns if it does not exist
     if 'sub_region_2' not in df.columns:
         df['sub_region_2'] = ''
 
@@ -261,25 +260,4 @@ def verify_data():
         'and manually download the covid-19-data.zip file and extract the content to ' \
         'the current folder.'
         raise FileNotFoundError(erro_msg)
-
-def library_check():
-    try:
-        import pandas
-    except:
-        raise logging.error('pandas missing, please use pip to install it.')
-
-    try:
-        import pycountry
-    except:
-        raise logging.error('pycountry missing, please use pip to install it.')
-
-    try:
-        import numpy
-    except:
-        raise logging.error('numpy missing, please use pip to install it.')
-    
-    try:
-        import gdown
-    except:
-        raise logging.error('gdown missing, please use pip to install it.')
 
