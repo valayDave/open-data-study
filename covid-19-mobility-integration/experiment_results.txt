@@ -1,7 +1,7 @@
 Time to fix data integration tasks:
 (Please measure your time in minutes)
-Task 1:
-Task 2:
+Task 1: 7.5 mins : took time finding where parsing errors start in utils
+Task 2: 19 mins : took time figuring whats needed in the task as columns and row. More Instructions were needed for this. 
 Task 3:
 Task 4:
 Task 5:

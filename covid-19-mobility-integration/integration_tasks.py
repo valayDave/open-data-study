@@ -80,7 +80,16 @@ class TestIntegration(unittest.TestCase):
         # Aggregate data into country level
         # FIXME if broken
         left = self.df1.groupby(['country_region_code', 'date']).agg(
-            {'Confirmed':'sum', 'Deaths':'sum', 'Recovered':'sum'})
+            {
+                'Confirmed':'sum', 
+                'Deaths':'sum', 
+                'Recovered':'sum',
+                'Active':'sum',
+                'Lat':'mean',
+                'Long_':'mean',
+                "Incidence_Rate":"mean",
+                "Case-Fatality_Ratio":"mean",
+            })
         
         # Select the data that is reported at the country level
         index = ~self.df2[['sub_region_1', 'sub_region_2', 'metro_area']].notna().any(axis=1)
@@ -88,7 +97,8 @@ class TestIntegration(unittest.TestCase):
 
         # Perform inner join
         joined = left.merge(right, how='inner', on=['country_region_code', 'date'])
-
+        
+        joined.rename({"Lat":"Latitude","Long_":"Longitude"}, axis='columns', inplace=True)
         # Load the expected result
         joined_exp_path = os.path.join('ground-truth', 'country-with-extra-columns', self.input_date + '.csv')
         joined_exp = pd.read_csv(joined_exp_path, encoding='utf-8')
