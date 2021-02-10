@@ -1,4 +1,5 @@
 import logging
+from os.path import join
 # Library check
 try:
     import pandas
@@ -137,7 +138,16 @@ class TestIntegration(unittest.TestCase):
         # state Level 
         # FIXME if broken
         left = self.df1.groupby(['country_region_code', 'sub_region_1', 'date']).agg(
-            {'Confirmed':'sum', 'Deaths':'sum', 'Recovered':'sum'})
+            {
+                'Confirmed':'sum', 
+                'Deaths':'sum', 
+                'Recovered':'sum',
+                'Active':'sum',
+                'Lat':'mean',
+                'Long_':'mean',
+                "Incidence_Rate":"mean",
+                "Case-Fatality_Ratio":"mean",
+            })
 
         # Select the data that is reported at the state level
         index = ~self.df2[['sub_region_2']].notna().any(axis=1)
@@ -146,7 +156,8 @@ class TestIntegration(unittest.TestCase):
         # Perform inner join
         joined = left.merge(right, how='inner', 
                             on=['country_region_code', 'sub_region_1', 'date'])
-
+        
+        joined.rename({"Lat":"Latitude","Long_":"Longitude"}, axis='columns', inplace=True)
         # Load the expected result
         joined_exp_path = os.path.join('ground-truth', 'state-with-extra-columns', self.input_date + '.csv')
         joined_exp = pd.read_csv(joined_exp_path, encoding='utf-8')
@@ -160,7 +171,8 @@ class TestIntegration(unittest.TestCase):
     def test_county_level_with_basic_columns(self):
         # county Level 
         # FIXME if broken
-        left = self.df1.groupby(['country_region_code', 'sub_region_1', 'sub_region_2', 'date']).agg(
+        
+        left = self.df1.groupby(['country_region_code','sub_region_1','sub_region_2', 'date']).agg(
             {'Confirmed':'sum', 'Deaths':'sum', 'Recovered':'sum'})
         
         # Select the data that is reported at the county level
@@ -169,7 +181,6 @@ class TestIntegration(unittest.TestCase):
         
         # Perform inner join
         joined = left.merge(right, how='inner', on=['country_region_code', 'sub_region_1', 'sub_region_2', 'date'])
-        
         # Load the expected result
         joined_exp_path = os.path.join('ground-truth', 'county', self.input_date + '.csv')
         joined_exp = pd.read_csv(joined_exp_path, encoding='utf-8')
@@ -183,7 +194,16 @@ class TestIntegration(unittest.TestCase):
     def test_county_level_with_extra_columns(self):
         # county Level 
         left = self.df1.groupby(['country_region_code', 'sub_region_1', 'sub_region_2', 'date']).agg(
-            {'Confirmed':'sum', 'Deaths':'sum', 'Recovered':'sum'})
+            {
+                'Confirmed':'sum', 
+                'Deaths':'sum', 
+                'Recovered':'sum',
+                'Active':'sum',
+                'Lat':'mean',
+                'Long_':'mean',
+                "Incidence_Rate":"mean",
+                "Case-Fatality_Ratio":"mean",
+            })
 
         # Select the data that is reported at the county level
         index = self.df2[['sub_region_2']].notna().any(axis=1)
@@ -191,7 +211,7 @@ class TestIntegration(unittest.TestCase):
 
         # Perform inner join
         joined = left.merge(right, how='inner', on=['country_region_code', 'sub_region_1', 'sub_region_2', 'date'])
-
+        joined.rename({"Lat":"Latitude","Long_":"Longitude"}, axis='columns', inplace=True)
         # Load the expected result
         joined_exp_path = os.path.join('ground-truth', 'county-with-extra-columns', self.input_date + '.csv')
         joined_exp = pd.read_csv(joined_exp_path, encoding='utf-8')
@@ -206,15 +226,31 @@ class TestIntegration(unittest.TestCase):
     def test_left_table_replaced_by_nytime(self):
         df1 = pd.read_csv('source-datasets/us-counties-nyt.csv', sep=',', encoding='utf-8', low_memory=False)
         # FIXME if broken
-        # left =
+        # left = 
+        df1.rename({"county":"sub_region_2","state":"sub_region_1"}, axis='columns', inplace=True)
 
+        df1 = df1[df1['date'] == '2020-06-30']
+        df1['sub_region_1'] = df1['sub_region_1'].str.lower()
+        df1['sub_region_2'] = df1['sub_region_2'].str.lower()
+        df1['sub_region_2'] = df1['sub_region_2'].str.strip()
+        
+        left = df1.groupby(['sub_region_1','sub_region_2', 'date']).agg(
+            {
+                "fips":"sum","cases":"sum","deaths":"sum"
+            })
         # Select the data that is reported at the county level
         index=  self.df2[['sub_region_2']].notna().any(axis=1)
         right = self.df2[index]
 
         # FIXME if broken
-        joined = right
+        joined = left.merge(right, how='inner', 
+                            on=['date','sub_region_2','sub_region_1',])
 
+        # print(len(left),len(df1),len(right),len(joined))
+        # joined.to_csv('hugry.csv')
+        # print(right.columns)
+        # print(df1['sub_region_2'].unique())
+        # print(right['sub_region_2'].unique())
         # Load the expected result
         joined_exp_path = os.path.join('ground-truth', 'replace-by-nyt', '06-30-2020' + '.csv')
         joined_exp = pd.read_csv(joined_exp_path, encoding='utf-8')

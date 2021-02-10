@@ -2,9 +2,9 @@ Time to fix data integration tasks:
 (Please measure your time in minutes)
 Task 1: 7.5 mins : took time finding where parsing errors start in utils
 Task 2: 19 mins : took time figuring whats needed in the task as columns and row. More Instructions were needed for this. 
-Task 3:
-Task 4:
-Task 5:
-Task 6:
-Task 7:
+Task 3: 8 mins : Don't know how it got to work. 
+Task 4: 3 mins : followed 
+Task 5: 40 mins : didn't realise that Admin2 Column was not set in the Utils. 
+Task 6: 2 mins : Fix to task 5 made task 6 very easy. 
+Task 7:30 mins : took time fixing bugs around lower casing and string stripping/etc bugs. Seems like Bugs in Lixi's Code. 
 Task 8:
