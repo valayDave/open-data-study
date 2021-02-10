@@ -89,6 +89,18 @@ def parse_coronavirus_data(data_path, input_date):
         'Province/State': 'sub_region_1',
         'Country/Region': 'country_region',
     }
+    # print(df.columns)
+    if 'Province_State' in df.columns:
+        rename_dict['Province_State'] = 'sub_region_1'
+    elif 'Province/State' in df.columns:
+        rename_dict['Province/State'] = 'sub_region_1'
+    
+    if 'Country_Region' in df.columns:
+        rename_dict['Country_Region'] = 'country_region'
+    if 'Country/Region' in df.columns:
+        rename_dict['Country/Region'] = 'country_region'
+
+    
     df.rename(rename_dict, axis='columns', inplace=True)
 
     # add sub_region_2 columns if it does not exist
@@ -177,6 +189,9 @@ def parse_coronavirus_data(data_path, input_date):
     df['country_region']=df['country_region'].str.strip('*')
     df['sub_region_1']=df['sub_region_1'].str.strip()
     df['sub_region_2']=df['sub_region_2'].str.strip()
+    
+    df['sub_region_2']=df['Admin2'].str.strip()
+    df['sub_region_2']=df['sub_region_2'].str.lower()
 
     # 4. fix missing country_region_code
     logging.info('fix missing country region code... ')
